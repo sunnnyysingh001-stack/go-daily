@@ -1,0 +1,1502 @@
+[
+  {
+    "year": 2026,
+    "paper": "english",
+    "label": "English (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-26-010926-Compulsory-ENGLISH.pdf"
+  },
+  {
+    "year": 2026,
+    "paper": "essay",
+    "label": "Essay",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-26-010926-ESSAY.pdf"
+  },
+  {
+    "year": 2026,
+    "paper": "gs1",
+    "label": "General Studies Paper - I",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-26-010926-GENERAL%20STUDIES%20PAPER%20-%20I.pdf"
+  },
+  {
+    "year": 2026,
+    "paper": "gs2",
+    "label": "General Studies Paper - II",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-26-010926-GENERAL-STUDIES-PAPER%20-%20II.pdf"
+  },
+  {
+    "year": 2026,
+    "paper": "gs3",
+    "label": "General Studies Paper - III",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-26-010926-GENERAL-STUDIES-PAPER-III.pdf"
+  },
+  {
+    "year": 2026,
+    "paper": "gs4",
+    "label": "General Studies Paper - IV",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-26-010926-GENERAL-STUDIES-PAPER-IV.pdf"
+  },
+  {
+    "year": 2026,
+    "paper": "language",
+    "label": "Assamese (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-26-010926-Compulsory-ASSAMESE.pdf"
+  },
+  {
+    "year": 2026,
+    "paper": "language",
+    "label": "Bengali (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-26-010926-Compulsory-BENGALI.pdf"
+  },
+  {
+    "year": 2026,
+    "paper": "language",
+    "label": "Bodo (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-26-010926-Compulsory-BODO.pdf"
+  },
+  {
+    "year": 2026,
+    "paper": "language",
+    "label": "Gujarati (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-26-010926-Compulsory-GUJARATI.pdf"
+  },
+  {
+    "year": 2026,
+    "paper": "language",
+    "label": "Hindi (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-26-010926-Compulsory-HINDI.pdf"
+  },
+  {
+    "year": 2026,
+    "paper": "language",
+    "label": "Kannada (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-26-010926-Compulsory-KANNADA.pdf"
+  },
+  {
+    "year": 2026,
+    "paper": "language",
+    "label": "Maithili (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-26-010926-Compulsory-MAITHILI.pdf"
+  },
+  {
+    "year": 2026,
+    "paper": "language",
+    "label": "Malayalam (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-26-010926-Compulsory-MALAYALAM.pdf"
+  },
+  {
+    "year": 2026,
+    "paper": "language",
+    "label": "Marathi (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-26-010926-Compulsory-MARATHI.pdf"
+  },
+  {
+    "year": 2026,
+    "paper": "language",
+    "label": "Nepali (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-26-010926-Compulsory-NEPALI.pdf"
+  },
+  {
+    "year": 2026,
+    "paper": "language",
+    "label": "ODIA (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-26-010926-Compulsory-ODIA.pdf"
+  },
+  {
+    "year": 2026,
+    "paper": "language",
+    "label": "Punjabi (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-26-010926-Compulsory-PUNJABI.pdf"
+  },
+  {
+    "year": 2026,
+    "paper": "language",
+    "label": "Sanskrit (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-26-010926-Compulsory-SANSKRIT.pdf"
+  },
+  {
+    "year": 2026,
+    "paper": "language",
+    "label": "Tamil (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-26-010926-Compulsory-TAMIL.pdf"
+  },
+  {
+    "year": 2026,
+    "paper": "language",
+    "label": "Telugu (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-26-010926-Compulsory-TELUGU.pdf"
+  },
+  {
+    "year": 2026,
+    "paper": "language",
+    "label": "Urdu (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-26-010926-Compulsory-URDU.pdf"
+  },
+  {
+    "year": 2026,
+    "paper": "philosophy1",
+    "label": "Philosophy Paper - I",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-26-010926-Optional-PHILOSOPHY-PAPER_I.pdf"
+  },
+  {
+    "year": 2026,
+    "paper": "philosophy2",
+    "label": "Philosophy Paper - II",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-26-010926-Optional-PHILOSOPHY-PAPER_II.pdf"
+  },
+  {
+    "year": 2026,
+    "paper": "psir1",
+    "label": "Political Science and International Relations Paper - I",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-26-010926-Optional-POLITICAL-SCIENCE-INTERNATIONAL-RELATIONS%20PAPER_I.pdf"
+  },
+  {
+    "year": 2026,
+    "paper": "psir2",
+    "label": "Political Science and International Relations Paper - II",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-26-010926-Optional-POLITICAL-SCIENCE-INTERNATIONAL-RELATIONS-PAPER_II.pdf"
+  },
+  {
+    "year": 2025,
+    "paper": "english",
+    "label": "English (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/ENGLISH-COMPULSORY-QP-CSM-25-010925.pdf"
+  },
+  {
+    "year": 2025,
+    "paper": "essay",
+    "label": "Essay",
+    "url": "https://www.upsc.gov.in/sites/default/files/ESSAY-QP-CSM-25-010925.pdf"
+  },
+  {
+    "year": 2025,
+    "paper": "gs1",
+    "label": "General Studies Paper - I",
+    "url": "https://www.upsc.gov.in/sites/default/files/GENERAL-STUDIES-PAPER%20I-QP-CSM-25-010925.pdf"
+  },
+  {
+    "year": 2025,
+    "paper": "gs2",
+    "label": "General Studies Paper - II",
+    "url": "https://www.upsc.gov.in/sites/default/files/GENERAL-STUDIES-PAPER-II-QP-CSM-25-010925.pdf"
+  },
+  {
+    "year": 2025,
+    "paper": "gs3",
+    "label": "General Studies Paper - III",
+    "url": "https://www.upsc.gov.in/sites/default/files/GENERAL-STUDIES-PAPER-III-QP-CSM-25-010925.pdf"
+  },
+  {
+    "year": 2025,
+    "paper": "gs4",
+    "label": "General Studies Paper - IV",
+    "url": "https://www.upsc.gov.in/sites/default/files/GENERAL-STUDIES-PAPER-IV-QP-CSM-25-010925.pdf"
+  },
+  {
+    "year": 2025,
+    "paper": "language",
+    "label": "Assamese (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/ASSAMESE-COMPULSORY-QP-CSM-25-010925.pdf"
+  },
+  {
+    "year": 2025,
+    "paper": "language",
+    "label": "Bengali (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/BENGALI-COMPULSORY-QP-CSM-25-010925.pdf"
+  },
+  {
+    "year": 2025,
+    "paper": "language",
+    "label": "Bodo (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/BODO-COMPULSORY-QP-CSM-25-010925.pdf"
+  },
+  {
+    "year": 2025,
+    "paper": "language",
+    "label": "Gujarati (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/GUJARATI-COMPULSORY-QP-CSM-25-010925.pdf"
+  },
+  {
+    "year": 2025,
+    "paper": "language",
+    "label": "Hindi (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/HINDI-COMPULSORY-QP-CSM-25-010925.pdf"
+  },
+  {
+    "year": 2025,
+    "paper": "language",
+    "label": "Kannada (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/KANNADA-COMPULSORY-QP-CSM-25-010925.pdf"
+  },
+  {
+    "year": 2025,
+    "paper": "language",
+    "label": "Kashimiri (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/KASHMIRI-COMPULSORY-QP-CSM-25-010925.pdf"
+  },
+  {
+    "year": 2025,
+    "paper": "language",
+    "label": "Maithili (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/MAITHILI-COMPULSORY-QP-CSM-25-010925.pdf"
+  },
+  {
+    "year": 2025,
+    "paper": "language",
+    "label": "Malayalam (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/MALAYALAM-COMPULSORY-QP-CSM-25-010925.pdf"
+  },
+  {
+    "year": 2025,
+    "paper": "language",
+    "label": "Marathi (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/MARATHI-COMPULSORY-QP-CSM-25-010925.pdf"
+  },
+  {
+    "year": 2025,
+    "paper": "language",
+    "label": "Nepali (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/NEPALI-COMPULSORY-QP-CSM-25-010925.pdf"
+  },
+  {
+    "year": 2025,
+    "paper": "language",
+    "label": "Odia Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/ODIA-COMPULSORY-QP-CSM-25-010925.pdf"
+  },
+  {
+    "year": 2025,
+    "paper": "language",
+    "label": "Punjabi (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/PUNJABI-COMPULSORY-QP-CSM-25-010925.pdf"
+  },
+  {
+    "year": 2025,
+    "paper": "language",
+    "label": "Sanskrit (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/SANSKRIT-COMPULSORY-QP-CSM-25-010925.pdf"
+  },
+  {
+    "year": 2025,
+    "paper": "language",
+    "label": "Sindhi (Devanagari) (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/SINDHI-DEVANAGARI-COMPULSORY-QP-CSM-25-010925.pdf"
+  },
+  {
+    "year": 2025,
+    "paper": "language",
+    "label": "Tamil (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/TAMIL-COMPULSORY-QP-CSM-25-010925.pdf"
+  },
+  {
+    "year": 2025,
+    "paper": "language",
+    "label": "Telugu (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/TELUGU-COMPULSORY-QP-CSM-25-010925.pdf"
+  },
+  {
+    "year": 2025,
+    "paper": "language",
+    "label": "Urdu (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/URDU-COMPULSORY-QP-CSM-25-010925.pdf"
+  },
+  {
+    "year": 2025,
+    "paper": "philosophy1",
+    "label": "Philosophy Paper - I",
+    "url": "https://www.upsc.gov.in/sites/default/files/PHILOSOPHY-PAPER-I-QP-CSM-25-010925.pdf"
+  },
+  {
+    "year": 2025,
+    "paper": "philosophy2",
+    "label": "Philosophy Paper - II",
+    "url": "https://www.upsc.gov.in/sites/default/files/PHILOSOPHY-PAPER-II-QP-CSM-25-010925.pdf"
+  },
+  {
+    "year": 2025,
+    "paper": "psir1",
+    "label": "Political Science and International Relation Paper - I",
+    "url": "https://www.upsc.gov.in/sites/default/files/POLITICAL-SCIENCE-INTERANATIONAL-RELATIONS-PAPER-I-QP-CSM-25-010925.pdf"
+  },
+  {
+    "year": 2025,
+    "paper": "psir2",
+    "label": "Political Science and International Relation Paper - II",
+    "url": "https://www.upsc.gov.in/sites/default/files/POLITICAL-SCIENCE-INTERANATIONAL-RELATIONS-PAPER-II-QP-CSM-25-010925.pdf"
+  },
+  {
+    "year": 2024,
+    "paper": "english",
+    "label": "English Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP_CSM_2024_Eng_Comp_03102024.pdf"
+  },
+  {
+    "year": 2024,
+    "paper": "essay",
+    "label": "Essay",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP_CSM_2024_ESSAY_03102024.pdf"
+  },
+  {
+    "year": 2024,
+    "paper": "gs1",
+    "label": "General Studies Paper - I",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP_CSM_2024_GenStud_I_03102024.pdf"
+  },
+  {
+    "year": 2024,
+    "paper": "gs2",
+    "label": "General Studies Paper - II",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP_CSM_2024_GenStud_II_03102024.pdf"
+  },
+  {
+    "year": 2024,
+    "paper": "gs3",
+    "label": "General Studies Paper - III",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP_CSM_2024_GenStud_III_03102024.pdf"
+  },
+  {
+    "year": 2024,
+    "paper": "gs4",
+    "label": "General Studies Paper - IV",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP_CSM_2024_GenStud_IV_03102024.pdf"
+  },
+  {
+    "year": 2024,
+    "paper": "language",
+    "label": "Assamese Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP_CSM_2024_Assa_Comp_03102024.pdf"
+  },
+  {
+    "year": 2024,
+    "paper": "language",
+    "label": "Bengali Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP_CSM_2024_Beng_Comp_03102024.pdf"
+  },
+  {
+    "year": 2024,
+    "paper": "language",
+    "label": "Bodo Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP_CSM_2024_Bodo_Comp_03102024.pdf"
+  },
+  {
+    "year": 2024,
+    "paper": "language",
+    "label": "Gujarati Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP_CSM_2024_Guj_Comp_03102024.pdf"
+  },
+  {
+    "year": 2024,
+    "paper": "language",
+    "label": "Hindi Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP_CSM_2024_Hn_Comp_03102024.pdf"
+  },
+  {
+    "year": 2024,
+    "paper": "language",
+    "label": "Kannada Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP_CSM_2024_Kann_Comp_03102024.pdf"
+  },
+  {
+    "year": 2024,
+    "paper": "language",
+    "label": "Maithili Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP_CSM_2024_Mait_Comp_03102024.pdf"
+  },
+  {
+    "year": 2024,
+    "paper": "language",
+    "label": "Malayalam Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP_CSM_2024_Mala_Comp_03102024.pdf"
+  },
+  {
+    "year": 2024,
+    "paper": "language",
+    "label": "Marathi Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP_CSM_2024_Mara_Comp_03102024.pdf"
+  },
+  {
+    "year": 2024,
+    "paper": "language",
+    "label": "Nepali Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP_CSM_2024_Nepa_Comp_03102024.pdf"
+  },
+  {
+    "year": 2024,
+    "paper": "language",
+    "label": "Odia Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP_CSM_2024_Odia_Comp_03102024.pdf"
+  },
+  {
+    "year": 2024,
+    "paper": "language",
+    "label": "Punjabi Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP_CSM_2024_Pun_Comp_03102024.pdf"
+  },
+  {
+    "year": 2024,
+    "paper": "language",
+    "label": "Sanskrit Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP_CSM_2024_Snk_Comp_03102024.pdf"
+  },
+  {
+    "year": 2024,
+    "paper": "language",
+    "label": "Sindhi Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP_CSM_2024_Sind_Comp_03102024.pdf"
+  },
+  {
+    "year": 2024,
+    "paper": "language",
+    "label": "Tamil Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP_CSM_2024_Tamil_Comp_03102024.pdf"
+  },
+  {
+    "year": 2024,
+    "paper": "language",
+    "label": "Telugu Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP_CSM_2024_Telu_Comp_03102024.pdf"
+  },
+  {
+    "year": 2024,
+    "paper": "language",
+    "label": "Urdu Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP_CSM_2024_Urdu_Comp_03102024.pdf"
+  },
+  {
+    "year": 2024,
+    "paper": "philosophy1",
+    "label": "Philosophy Paper -I",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-24-PHILOSOPHY-PAPER-I-031024.pdf"
+  },
+  {
+    "year": 2024,
+    "paper": "philosophy2",
+    "label": "Philosophy Paper -II",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-24-PHILOSOPHY-PAPER-II-031024.pdf"
+  },
+  {
+    "year": 2024,
+    "paper": "psir1",
+    "label": "Political Science and International Relations Paper - I",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-24-POLITICAL-SCIENCE-INTERNL%20-REL-PAPER-I-031024.pdf"
+  },
+  {
+    "year": 2024,
+    "paper": "psir2",
+    "label": "Political Science and International Relations Paper - II",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-24-POLITICAL-SCIENCE-INTERNL%20-REL-PAPER-II-031024.pdf"
+  },
+  {
+    "year": 2023,
+    "paper": "english",
+    "label": "English Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-23-ENGLISH-COMPULSORY-290923.pdf"
+  },
+  {
+    "year": 2023,
+    "paper": "essay",
+    "label": "Essay",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-23-ESSAY-180923.pdf"
+  },
+  {
+    "year": 2023,
+    "paper": "gs1",
+    "label": "General Studies Paper - I",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-23-GENERAL-STUDIES-PAPER-I-180923.pdf"
+  },
+  {
+    "year": 2023,
+    "paper": "gs2",
+    "label": "General Studies Paper - II",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-23-GENERAL-STUDIES-PAPER-II-180923.pdf"
+  },
+  {
+    "year": 2023,
+    "paper": "gs3",
+    "label": "General Studies Paper - III",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-23-GENERAL-STUDIES-PAPER-III-180923.pdf"
+  },
+  {
+    "year": 2023,
+    "paper": "gs4",
+    "label": "General Studies Paper - IV",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-23-GENERAL-STUDIES-PAPER-IV-180923.pdf"
+  },
+  {
+    "year": 2023,
+    "paper": "language",
+    "label": "Assamese Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-23-ASSAMESE-COMPULSORY-290923.pdf"
+  },
+  {
+    "year": 2023,
+    "paper": "language",
+    "label": "Bengali Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-23-BENGALI-COMPULSORY%29-290923.pdf"
+  },
+  {
+    "year": 2023,
+    "paper": "language",
+    "label": "Bodo Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-23-BODO-COMPULSORY-290923.pdf"
+  },
+  {
+    "year": 2023,
+    "paper": "language",
+    "label": "Gujarati Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-23-GUJARATI-COMPULSORY-290923.pdf"
+  },
+  {
+    "year": 2023,
+    "paper": "language",
+    "label": "Hindi Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-23-HINDI-COMPULSORY-290923.pdf"
+  },
+  {
+    "year": 2023,
+    "paper": "language",
+    "label": "Kannada Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-23-KANNADA-COMPULSORY-290923.pdf"
+  },
+  {
+    "year": 2023,
+    "paper": "language",
+    "label": "Maithili Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-23-MAITHILI-COMPULSORY-290923.pdf"
+  },
+  {
+    "year": 2023,
+    "paper": "language",
+    "label": "Malayalam Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-23-MALAYALAM-COMPULSORY-290923.pdf"
+  },
+  {
+    "year": 2023,
+    "paper": "language",
+    "label": "Manipuri Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-23-MANIPURI-COMPULSORY-290923.pdf"
+  },
+  {
+    "year": 2023,
+    "paper": "language",
+    "label": "Marathi Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-23-MARATHI-COMPULSORY-290923.pdf"
+  },
+  {
+    "year": 2023,
+    "paper": "language",
+    "label": "Nepali Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-23-NEPALI-COMPULSORY-290923.pdf"
+  },
+  {
+    "year": 2023,
+    "paper": "language",
+    "label": "Odia Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-23-ODIA-COMPULSORY-290923.pdf"
+  },
+  {
+    "year": 2023,
+    "paper": "language",
+    "label": "Punjabi Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-23-PUNJABI-COMPULSORY-290923.pdf"
+  },
+  {
+    "year": 2023,
+    "paper": "language",
+    "label": "Sanskrit Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-23-SANSKRIT-COMPULSORY-290923.pdf"
+  },
+  {
+    "year": 2023,
+    "paper": "language",
+    "label": "Sindhi Devanagari Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-23-SINDHI-DEVANAGARI-COMPULSORY-290923.pdf"
+  },
+  {
+    "year": 2023,
+    "paper": "language",
+    "label": "Tamil Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-23-TAMIL-COMPULSORY-290923.pdf"
+  },
+  {
+    "year": 2023,
+    "paper": "language",
+    "label": "Telugu Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-23-TELUGU-COMPULSORY-290923.pdf"
+  },
+  {
+    "year": 2023,
+    "paper": "language",
+    "label": "Urdu Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-23-URDU-COMPULSORY-290923.pdf"
+  },
+  {
+    "year": 2023,
+    "paper": "philosophy1",
+    "label": "Philosophy Paper - I",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-23-PHILOSOPHY-PAPER-I-29092023.pdf"
+  },
+  {
+    "year": 2023,
+    "paper": "philosophy2",
+    "label": "Philosophy Paper - II",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-23-PHILOSOPHY-PAPER-II-29092023.pdf"
+  },
+  {
+    "year": 2023,
+    "paper": "psir1",
+    "label": "Political Science and IR Paper - I",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-23-POL-SC-IR-PAPER-I-29092023.pdf"
+  },
+  {
+    "year": 2023,
+    "paper": "psir2",
+    "label": "Political Science and IR Paper - II",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-23-POL-SC-IR-PAPER-II-29092023.pdf"
+  },
+  {
+    "year": 2022,
+    "paper": "english",
+    "label": "English (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-22-ENGLISH-Compl-280922.pdf"
+  },
+  {
+    "year": 2022,
+    "paper": "essay",
+    "label": "Essay",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-22-ESSAY-190922.pdf"
+  },
+  {
+    "year": 2022,
+    "paper": "gs1",
+    "label": "General Studies - I",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-22-GENERAL-STUDIES-PAPER%20I-190922.pdf"
+  },
+  {
+    "year": 2022,
+    "paper": "gs2",
+    "label": "General Studies - II",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-22-GENERAL-STUDIES-PAPER-II-190922.pdf"
+  },
+  {
+    "year": 2022,
+    "paper": "gs3",
+    "label": "General Studies - III",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-22-GENERAL-STUDIES-PAPER-III-190922.pdf"
+  },
+  {
+    "year": 2022,
+    "paper": "gs4",
+    "label": "General Studies - IV",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-22-GENERAL-STUDIES-PAPER%20IV-190922.pdf"
+  },
+  {
+    "year": 2022,
+    "paper": "language",
+    "label": "Assamese (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-22-ASSAMESE-Compl-280922.pdf"
+  },
+  {
+    "year": 2022,
+    "paper": "language",
+    "label": "Bengali (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-22-BENGALI-Compl-280922.pdf"
+  },
+  {
+    "year": 2022,
+    "paper": "language",
+    "label": "Gujarati (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-22-GUJARATI-Compl-280922.pdf"
+  },
+  {
+    "year": 2022,
+    "paper": "language",
+    "label": "Hindi (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-22-HINDI-Compl-280922.pdf"
+  },
+  {
+    "year": 2022,
+    "paper": "language",
+    "label": "Kannada (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-22-KANNADA-Compl-280922.pdf"
+  },
+  {
+    "year": 2022,
+    "paper": "language",
+    "label": "Kashmiri (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-22-KASHMIRI-Compl-280922.pdf"
+  },
+  {
+    "year": 2022,
+    "paper": "language",
+    "label": "Malayalam (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-22-MALAYALAM-Compl-280922.pdf"
+  },
+  {
+    "year": 2022,
+    "paper": "language",
+    "label": "Marathi (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-22-MARATHI-Compl-280922.pdf"
+  },
+  {
+    "year": 2022,
+    "paper": "language",
+    "label": "Nepali (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-22-NEPALI-Compl-280922.pdf"
+  },
+  {
+    "year": 2022,
+    "paper": "language",
+    "label": "Odia (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-22-ODIA-Compl-280922.pdf"
+  },
+  {
+    "year": 2022,
+    "paper": "language",
+    "label": "Punjabi (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-22-PUNJABI-Compl-280922.pdf"
+  },
+  {
+    "year": 2022,
+    "paper": "language",
+    "label": "Sanskrit (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-22-SANSKRIT-Compl-280922.pdf"
+  },
+  {
+    "year": 2022,
+    "paper": "language",
+    "label": "Sindhi (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-22-SINDHI-Compl-280922.pdf"
+  },
+  {
+    "year": 2022,
+    "paper": "language",
+    "label": "Tamil (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-22-TAMIL-Compl-280922.pdf"
+  },
+  {
+    "year": 2022,
+    "paper": "language",
+    "label": "Telugu (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-22-TELUGU-Compl-280922.pdf"
+  },
+  {
+    "year": 2022,
+    "paper": "language",
+    "label": "Urdu (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-22-URDU-Compl-280922.pdf"
+  },
+  {
+    "year": 2022,
+    "paper": "philosophy1",
+    "label": "Philosophy Paper - I",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-22-PHILOSOPHY-PAPER-I-280922.pdf"
+  },
+  {
+    "year": 2022,
+    "paper": "philosophy2",
+    "label": "Philosophy Paper - II",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-22-PHILOSOPHY-PAPER-II-280922.pdf"
+  },
+  {
+    "year": 2022,
+    "paper": "psir1",
+    "label": "Political Science and IR Paper - I",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-22-POLITICAL-SCIENCE-AND-INTERNATIONAL-RELATIONS-PAPER-I-280922.pdf"
+  },
+  {
+    "year": 2022,
+    "paper": "psir2",
+    "label": "Political Science and IR Paper - II",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-22-POLITICAL-SCIENCE-AND-INTERNATIONAL-RELATIONS-PAPER-II-280922.pdf"
+  },
+  {
+    "year": 2021,
+    "paper": "english",
+    "label": "English (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/English.pdf"
+  },
+  {
+    "year": 2021,
+    "paper": "essay",
+    "label": "Essay",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-21-ESSAY-110122.pdf"
+  },
+  {
+    "year": 2021,
+    "paper": "gs1",
+    "label": "General Studies Paper - I",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-21-GENSTUDIESPAPER-I-110122.pdf"
+  },
+  {
+    "year": 2021,
+    "paper": "gs2",
+    "label": "General Studies Paper - II",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-21-GENSTUDIESPAPER-II-110122.pdf"
+  },
+  {
+    "year": 2021,
+    "paper": "gs3",
+    "label": "General Studies Paper - III",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-21-GENSTUDIESPAPER-III-110122.pdf"
+  },
+  {
+    "year": 2021,
+    "paper": "gs4",
+    "label": "General Studies Paper - IV",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-21-GENSTUDIESPAPER-IV-110122.pdf"
+  },
+  {
+    "year": 2021,
+    "paper": "philosophy1",
+    "label": "Philosophy Paper-I",
+    "url": "https://www.upsc.gov.in/sites/default/files/Philosophy%20Paper-I.pdf"
+  },
+  {
+    "year": 2021,
+    "paper": "philosophy2",
+    "label": "Philosophy Paper-II",
+    "url": "https://www.upsc.gov.in/sites/default/files/Philosophy%20Paper-II.pdf"
+  },
+  {
+    "year": 2021,
+    "paper": "psir1",
+    "label": "Political Science and International Relations Paper-I",
+    "url": "https://www.upsc.gov.in/sites/default/files/Political%20Science%20and%20International%20Relations%20Paper-I.pdf"
+  },
+  {
+    "year": 2021,
+    "paper": "psir2",
+    "label": "Political Science and International Relations Paper-II",
+    "url": "https://www.upsc.gov.in/sites/default/files/Political%20Science%20and%20International%20Relations%20Paper-II.pdf"
+  },
+  {
+    "year": 2020,
+    "paper": "english",
+    "label": "English Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/ENGLISH.pdf"
+  },
+  {
+    "year": 2020,
+    "paper": "essay",
+    "label": "Essay",
+    "url": "https://www.upsc.gov.in/sites/default/files/ESSAY_1.pdf"
+  },
+  {
+    "year": 2020,
+    "paper": "gs1",
+    "label": "General Studies Paper - I",
+    "url": "https://www.upsc.gov.in/sites/default/files/Gen_St_P1.pdf"
+  },
+  {
+    "year": 2020,
+    "paper": "gs2",
+    "label": "General Studies Paper - II",
+    "url": "https://www.upsc.gov.in/sites/default/files/Gen_St_P2.pdf"
+  },
+  {
+    "year": 2020,
+    "paper": "gs3",
+    "label": "General Studies Paper - III",
+    "url": "https://www.upsc.gov.in/sites/default/files/Gen_St_P3.pdf"
+  },
+  {
+    "year": 2020,
+    "paper": "gs4",
+    "label": "General Studies Paper - IV",
+    "url": "https://www.upsc.gov.in/sites/default/files/Gen_St_P4.pdf"
+  },
+  {
+    "year": 2020,
+    "paper": "language",
+    "label": "Assamese Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/ASSAMESE_1.pdf"
+  },
+  {
+    "year": 2020,
+    "paper": "language",
+    "label": "Bengali Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/BENGALI_1.pdf"
+  },
+  {
+    "year": 2020,
+    "paper": "language",
+    "label": "Bodo Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/BODO_1.pdf"
+  },
+  {
+    "year": 2020,
+    "paper": "language",
+    "label": "Gujarati Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/GUJARATI.pdf"
+  },
+  {
+    "year": 2020,
+    "paper": "language",
+    "label": "Hindi Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/HINDI_0.pdf"
+  },
+  {
+    "year": 2020,
+    "paper": "language",
+    "label": "Kannada Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/KANNAD.pdf"
+  },
+  {
+    "year": 2020,
+    "paper": "language",
+    "label": "Maithili Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/MAITHILI_0.pdf"
+  },
+  {
+    "year": 2020,
+    "paper": "language",
+    "label": "Malayalam Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/MALAYALAM.pdf"
+  },
+  {
+    "year": 2020,
+    "paper": "language",
+    "label": "Marathi Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/MARATHI_0.pdf"
+  },
+  {
+    "year": 2020,
+    "paper": "language",
+    "label": "Nepali Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/NEPALI_0.pdf"
+  },
+  {
+    "year": 2020,
+    "paper": "language",
+    "label": "Odia Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/ODIA_0.pdf"
+  },
+  {
+    "year": 2020,
+    "paper": "language",
+    "label": "Punjabi Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/PUNJABI_0.pdf"
+  },
+  {
+    "year": 2020,
+    "paper": "language",
+    "label": "Sanskrit Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/SANSKRIT_0.pdf"
+  },
+  {
+    "year": 2020,
+    "paper": "language",
+    "label": "Sindhi (Arabic) Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/SINDHI_0.pdf"
+  },
+  {
+    "year": 2020,
+    "paper": "language",
+    "label": "Tamil Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/TAMIL_0.pdf"
+  },
+  {
+    "year": 2020,
+    "paper": "language",
+    "label": "Telugu Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/TELUGU_0.pdf"
+  },
+  {
+    "year": 2020,
+    "paper": "language",
+    "label": "Urdu Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/URDU_0.pdf"
+  },
+  {
+    "year": 2020,
+    "paper": "philosophy1",
+    "label": "Philosophy Paper - I",
+    "url": "https://www.upsc.gov.in/sites/default/files/PHILOSOPHY_I.pdf"
+  },
+  {
+    "year": 2020,
+    "paper": "philosophy2",
+    "label": "Philosophy Paper - II",
+    "url": "https://www.upsc.gov.in/sites/default/files/PHYLOSOPHY_II.pdf"
+  },
+  {
+    "year": 2020,
+    "paper": "psir1",
+    "label": "Political Science and IR Paper - I",
+    "url": "https://www.upsc.gov.in/sites/default/files/POL_SC_I.pdf"
+  },
+  {
+    "year": 2020,
+    "paper": "psir2",
+    "label": "Political Science and IR Paper - II",
+    "url": "https://www.upsc.gov.in/sites/default/files/POL_SC_II.pdf"
+  },
+  {
+    "year": 2019,
+    "paper": "english",
+    "label": "English Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM19-EnglishCompulsory.pdf"
+  },
+  {
+    "year": 2019,
+    "paper": "essay",
+    "label": "Essay",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM19-Essay.pdf"
+  },
+  {
+    "year": 2019,
+    "paper": "gs1",
+    "label": "General Studies Paper - I",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM19-GeneralStudies-I.pdf"
+  },
+  {
+    "year": 2019,
+    "paper": "gs2",
+    "label": "General Studies Paper - II",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM19-GeneralStudies-II.pdf"
+  },
+  {
+    "year": 2019,
+    "paper": "gs3",
+    "label": "General Studies Paper - III",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM19-GeneralStudies-III.pdf"
+  },
+  {
+    "year": 2019,
+    "paper": "gs4",
+    "label": "General Studies Paper - IV",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM19-GeneralStudies-IV.pdf"
+  },
+  {
+    "year": 2019,
+    "paper": "language",
+    "label": "Assamese Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM19-AssameseCompulory.pdf"
+  },
+  {
+    "year": 2019,
+    "paper": "language",
+    "label": "Bengali Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM19-BengaliCompulory.pdf"
+  },
+  {
+    "year": 2019,
+    "paper": "language",
+    "label": "Dogri Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM19-DogriCompulory.pdf"
+  },
+  {
+    "year": 2019,
+    "paper": "language",
+    "label": "Gujarati Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM19-GujaratiCompulory.pdf"
+  },
+  {
+    "year": 2019,
+    "paper": "language",
+    "label": "Hindi Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM19-HindiCompulory.pdf"
+  },
+  {
+    "year": 2019,
+    "paper": "language",
+    "label": "Kannada Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM19-KannadaCompulory.pdf"
+  },
+  {
+    "year": 2019,
+    "paper": "language",
+    "label": "Maithili Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM19-MaithiliCompulory.pdf"
+  },
+  {
+    "year": 2019,
+    "paper": "language",
+    "label": "Malayalam Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM19-MalayalamCompulory.pdf"
+  },
+  {
+    "year": 2019,
+    "paper": "language",
+    "label": "Marathi Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM19-MarathiCompulory.pdf"
+  },
+  {
+    "year": 2019,
+    "paper": "language",
+    "label": "Nepali Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM19-NepaliCompulory.pdf"
+  },
+  {
+    "year": 2019,
+    "paper": "language",
+    "label": "Oriya Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM19-OriyaCompulory.pdf"
+  },
+  {
+    "year": 2019,
+    "paper": "language",
+    "label": "Punjabi Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM19-PunjabiCompulory.pdf"
+  },
+  {
+    "year": 2019,
+    "paper": "language",
+    "label": "Sanskrit Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM19-SanskritCompulory.pdf"
+  },
+  {
+    "year": 2019,
+    "paper": "language",
+    "label": "Sindhi Compulsory Dev",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM19-SindhiCompuloryDev.pdf"
+  },
+  {
+    "year": 2019,
+    "paper": "language",
+    "label": "Tamil Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM19-TamilCompulory.pdf"
+  },
+  {
+    "year": 2019,
+    "paper": "language",
+    "label": "Telugu Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM19-TeluguCompulory.pdf"
+  },
+  {
+    "year": 2019,
+    "paper": "language",
+    "label": "Urdu Compulsory",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM19-UrduCompulory.pdf"
+  },
+  {
+    "year": 2019,
+    "paper": "philosophy1",
+    "label": "Philosophy Paper - I",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM19-Philosophy-I.pdf"
+  },
+  {
+    "year": 2019,
+    "paper": "philosophy2",
+    "label": "Philosophy Paper - II",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM19-Philosophy-II.pdf"
+  },
+  {
+    "year": 2019,
+    "paper": "psir1",
+    "label": "Political Science and IR Paper - I",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM19-PolScIR-I.pdf"
+  },
+  {
+    "year": 2019,
+    "paper": "psir2",
+    "label": "Political Science and IR Paper - II",
+    "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM19-PolScIR-II.pdf"
+  },
+  {
+    "year": 2018,
+    "paper": "english",
+    "label": "English (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/ENGLISH-COMP_0.pdf"
+  },
+  {
+    "year": 2018,
+    "paper": "essay",
+    "label": "Essay",
+    "url": "https://www.upsc.gov.in/sites/default/files/ESSAY_0.pdf"
+  },
+  {
+    "year": 2018,
+    "paper": "gs1",
+    "label": "General Studies Paper - I",
+    "url": "https://www.upsc.gov.in/sites/default/files/GENERAL-STUDIES-PAPER-I.pdf"
+  },
+  {
+    "year": 2018,
+    "paper": "gs2",
+    "label": "General Studies Paper - II",
+    "url": "https://www.upsc.gov.in/sites/default/files/GENERAL-STUDIES-PAPER-II.pdf"
+  },
+  {
+    "year": 2018,
+    "paper": "gs3",
+    "label": "General Studies Paper - III",
+    "url": "https://www.upsc.gov.in/sites/default/files/GENERAL-STUDIES-PAPER-III.pdf"
+  },
+  {
+    "year": 2018,
+    "paper": "gs4",
+    "label": "General Studies Paper - IV",
+    "url": "https://www.upsc.gov.in/sites/default/files/GENERAL-STUDIES-PAPER-IV.pdf"
+  },
+  {
+    "year": 2018,
+    "paper": "philosophy1",
+    "label": "Philosophy Paper - I",
+    "url": "https://www.upsc.gov.in/sites/default/files/PHILOSOPY-PAPER-I.pdf"
+  },
+  {
+    "year": 2018,
+    "paper": "philosophy2",
+    "label": "Philosophy Paper - II",
+    "url": "https://www.upsc.gov.in/sites/default/files/PHILOSOPY-PAPER-II_0.pdf"
+  },
+  {
+    "year": 2018,
+    "paper": "psir1",
+    "label": "Political Science and IR Paper - I",
+    "url": "https://www.upsc.gov.in/sites/default/files/POL-SCI-INTERNAL-PAPER-I.pdf"
+  },
+  {
+    "year": 2018,
+    "paper": "psir2",
+    "label": "Political Science and IR Paper - II",
+    "url": "https://www.upsc.gov.in/sites/default/files/POL-SCI-INTERNAL-PAPER-II.pdf"
+  },
+  {
+    "year": 2017,
+    "paper": "english",
+    "label": "English (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/ENGLISH_3.pdf"
+  },
+  {
+    "year": 2017,
+    "paper": "essay",
+    "label": "Essay",
+    "url": "https://www.upsc.gov.in/sites/default/files/ESSAY.pdf"
+  },
+  {
+    "year": 2017,
+    "paper": "gs1",
+    "label": "General Studies Paper - I",
+    "url": "https://www.upsc.gov.in/sites/default/files/GS1_1.pdf"
+  },
+  {
+    "year": 2017,
+    "paper": "gs2",
+    "label": "General Studies Paper - II",
+    "url": "https://www.upsc.gov.in/sites/default/files/GS2_0.pdf"
+  },
+  {
+    "year": 2017,
+    "paper": "gs3",
+    "label": "General Studies Paper - III",
+    "url": "https://www.upsc.gov.in/sites/default/files/GS3_0.pdf"
+  },
+  {
+    "year": 2017,
+    "paper": "gs4",
+    "label": "General Studies Paper - IV",
+    "url": "https://www.upsc.gov.in/sites/default/files/GS4_0.pdf"
+  },
+  {
+    "year": 2017,
+    "paper": "philosophy1",
+    "label": "Philosophy Paper - I",
+    "url": "https://www.upsc.gov.in/sites/default/files/PHILOSOPHY1_0.pdf"
+  },
+  {
+    "year": 2017,
+    "paper": "philosophy2",
+    "label": "Philosophy Paper - II",
+    "url": "https://www.upsc.gov.in/sites/default/files/PHILOSOPHY2_0.pdf"
+  },
+  {
+    "year": 2017,
+    "paper": "psir1",
+    "label": "Political Science & IR Paper - I",
+    "url": "https://www.upsc.gov.in/sites/default/files/POL_SCI1.pdf"
+  },
+  {
+    "year": 2017,
+    "paper": "psir2",
+    "label": "Political Science & IR Paper - II",
+    "url": "https://www.upsc.gov.in/sites/default/files/POL_SCI2.pdf"
+  },
+  {
+    "year": 2016,
+    "paper": "english",
+    "label": "English (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/ENGLISH%20%28COM%29.pdf"
+  },
+  {
+    "year": 2016,
+    "paper": "essay",
+    "label": "Essay (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/EASSY_0.pdf"
+  },
+  {
+    "year": 2016,
+    "paper": "gs1",
+    "label": "General Studies Paper - I",
+    "url": "https://www.upsc.gov.in/sites/default/files/GS1_0.pdf"
+  },
+  {
+    "year": 2016,
+    "paper": "gs2",
+    "label": "General Studies Paper - II",
+    "url": "https://www.upsc.gov.in/sites/default/files/GS2.pdf"
+  },
+  {
+    "year": 2016,
+    "paper": "gs3",
+    "label": "General Studies Paper - III",
+    "url": "https://www.upsc.gov.in/sites/default/files/GS3.pdf"
+  },
+  {
+    "year": 2016,
+    "paper": "gs4",
+    "label": "General Studies Paper - IV",
+    "url": "https://www.upsc.gov.in/sites/default/files/GS4.pdf"
+  },
+  {
+    "year": 2016,
+    "paper": "language",
+    "label": "Assamese (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/ASSAMESE_COM.pdf"
+  },
+  {
+    "year": 2016,
+    "paper": "language",
+    "label": "Bengali (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/BENGALI_COM.pdf"
+  },
+  {
+    "year": 2016,
+    "paper": "language",
+    "label": "Bodo (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/BODO_COM.pdf"
+  },
+  {
+    "year": 2016,
+    "paper": "language",
+    "label": "Dogri (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/DOGRI_COM.pdf"
+  },
+  {
+    "year": 2016,
+    "paper": "language",
+    "label": "Gujarati (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/GUJRATI_Compl_0.pdf"
+  },
+  {
+    "year": 2016,
+    "paper": "language",
+    "label": "Hindi (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/HINDI_COM_0.pdf"
+  },
+  {
+    "year": 2016,
+    "paper": "language",
+    "label": "Kannada (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/KANNADA_COM.pdf"
+  },
+  {
+    "year": 2016,
+    "paper": "language",
+    "label": "Konkani (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/KONKANI_COM.pdf"
+  },
+  {
+    "year": 2016,
+    "paper": "language",
+    "label": "Maithili (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/MAITHILI_COM.pdf"
+  },
+  {
+    "year": 2016,
+    "paper": "language",
+    "label": "Malayalam (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/MALYALAM_COM.pdf"
+  },
+  {
+    "year": 2016,
+    "paper": "language",
+    "label": "Marathi (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/MARATHI_COM.pdf"
+  },
+  {
+    "year": 2016,
+    "paper": "language",
+    "label": "Nepali (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/NEPALI_COM.pdf"
+  },
+  {
+    "year": 2016,
+    "paper": "language",
+    "label": "Oriya (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/ODIA_COM.pdf"
+  },
+  {
+    "year": 2016,
+    "paper": "language",
+    "label": "Punjabi (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/PUNJABI_COM.pdf"
+  },
+  {
+    "year": 2016,
+    "paper": "language",
+    "label": "Sanskrit (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/SANSKRIT_COM.pdf"
+  },
+  {
+    "year": 2016,
+    "paper": "language",
+    "label": "Santhali (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/SANTHALI_COM.pdf"
+  },
+  {
+    "year": 2016,
+    "paper": "language",
+    "label": "Sindhi (Arabic) (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/SINDHI_ARABICCOM.pdf"
+  },
+  {
+    "year": 2016,
+    "paper": "language",
+    "label": "Sindhi (Devanagari) (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/SINDHI_DEVNAGARICOM.pdf"
+  },
+  {
+    "year": 2016,
+    "paper": "language",
+    "label": "Tamil (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/TAMIL_COM.pdf"
+  },
+  {
+    "year": 2016,
+    "paper": "language",
+    "label": "Telugu (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/TELUGU_COM.pdf"
+  },
+  {
+    "year": 2016,
+    "paper": "language",
+    "label": "Urdu (Compulsory)",
+    "url": "https://www.upsc.gov.in/sites/default/files/URDU_COM.pdf"
+  },
+  {
+    "year": 2016,
+    "paper": "philosophy1",
+    "label": "Philosophy Paper - I",
+    "url": "https://www.upsc.gov.in/sites/default/files/PHILOSOPHY1.pdf"
+  },
+  {
+    "year": 2016,
+    "paper": "philosophy2",
+    "label": "Philosophy Paper - II",
+    "url": "https://www.upsc.gov.in/sites/default/files/PHILOSOPHY2.pdf"
+  },
+  {
+    "year": 2016,
+    "paper": "psir1",
+    "label": "Political Science & IR Paper - I",
+    "url": "https://www.upsc.gov.in/sites/default/files/POL_SCIENCE1.pdf"
+  },
+  {
+    "year": 2016,
+    "paper": "psir2",
+    "label": "Political Science & IR Paper - II",
+    "url": "https://www.upsc.gov.in/sites/default/files/POL_SCIENCE2.pdf"
+  }
+]

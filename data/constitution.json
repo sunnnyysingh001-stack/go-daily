@@ -1,0 +1,990 @@
+{
+  "categories": [
+    {
+      "id": "foundations",
+      "label": "Foundations",
+      "sub": "Preamble · Union · Citizenship",
+      "x": 700,
+      "y": 135,
+      "color": "#FFD166",
+      "children": [
+        "preamble",
+        "part1",
+        "part2",
+        "part22"
+      ]
+    },
+    {
+      "id": "rights",
+      "label": "Rights & Duties",
+      "sub": "FR · DPSP · Duties",
+      "x": 1060,
+      "y": 250,
+      "color": "#72A7FF",
+      "children": [
+        "part3",
+        "part4",
+        "part4a"
+      ]
+    },
+    {
+      "id": "union",
+      "label": "Union Government",
+      "sub": "Executive · Parliament · Judiciary",
+      "x": 1170,
+      "y": 520,
+      "color": "#9D8CFF",
+      "children": [
+        "part5"
+      ]
+    },
+    {
+      "id": "federal",
+      "label": "States & Federalism",
+      "sub": "States · UTs · Relations",
+      "x": 1010,
+      "y": 760,
+      "color": "#55D6BE",
+      "children": [
+        "part6",
+        "part8",
+        "part10",
+        "part11",
+        "part12",
+        "part13"
+      ]
+    },
+    {
+      "id": "local",
+      "label": "Local Democracy",
+      "sub": "Panchayats · Municipalities · Co-ops",
+      "x": 700,
+      "y": 825,
+      "color": "#7BD389",
+      "children": [
+        "part9",
+        "part9a",
+        "part9b"
+      ]
+    },
+    {
+      "id": "institutions",
+      "label": "Institutions",
+      "sub": "Services · Tribunals · Elections",
+      "x": 390,
+      "y": 760,
+      "color": "#F3A683",
+      "children": [
+        "part14",
+        "part14a",
+        "part15",
+        "part16",
+        "part17"
+      ]
+    },
+    {
+      "id": "emergency",
+      "label": "Emergency & Change",
+      "sub": "Emergency · Amendment · Transitional",
+      "x": 230,
+      "y": 520,
+      "color": "#FF7B86",
+      "children": [
+        "part18",
+        "part19",
+        "part20",
+        "part21"
+      ]
+    },
+    {
+      "id": "schedules",
+      "label": "Schedules",
+      "sub": "1–12 · high-yield map",
+      "x": 340,
+      "y": 250,
+      "color": "#5EC8E5",
+      "children": [
+        "sch1",
+        "sch5",
+        "sch6",
+        "sch7",
+        "sch8",
+        "sch10",
+        "sch11",
+        "sch12"
+      ]
+    }
+  ],
+  "topics": {
+    "preamble": {
+      "title": "Preamble",
+      "subtitle": "Constitutional philosophy",
+      "articles": "Keywords",
+      "tags": [
+        "Prelims",
+        "GS-II",
+        "Essay"
+      ],
+      "core": "Sovereign, Socialist, Secular, Democratic, Republic; Justice, Liberty, Equality and Fraternity. The Preamble guides constitutional interpretation.",
+      "points": [
+        "42nd Amendment added ‘Socialist’, ‘Secular’ and ‘integrity’.",
+        "Kesavananda Bharati: Preamble is part of the Constitution.",
+        "Not an independent source of power, but an interpretive guide."
+      ],
+      "upsc": "Link Preamble values to constitutional morality, welfare state, secularism, democracy and dignity."
+    },
+    "part1": {
+      "title": "Part I — Union and its Territory",
+      "subtitle": "Articles 1–4",
+      "articles": "Art. 1–4",
+      "tags": [
+        "Federalism",
+        "Prelims"
+      ],
+      "core": "India, that is Bharat, is a Union of States. Parliament has broad power to admit, establish or reorganise States.",
+      "points": [
+        "Art. 1: name and territory.",
+        "Art. 3: formation/alteration of States; President's recommendation required.",
+        "State legislature's view is sought but is not binding on Parliament."
+      ],
+      "upsc": "Frequently tested distinction: constitutional amendment under Art. 368 is not required for laws under Arts. 2–4."
+    },
+    "part2": {
+      "title": "Part II — Citizenship",
+      "subtitle": "Articles 5–11",
+      "articles": "Art. 5–11",
+      "tags": [
+        "Prelims",
+        "Polity"
+      ],
+      "core": "Part II dealt primarily with citizenship at the commencement of the Constitution; Parliament may regulate citizenship by law.",
+      "points": [
+        "Art. 11 enables Parliament to legislate on citizenship.",
+        "Citizenship Act, 1955 is central to present statutory rules.",
+        "Constitution provides single citizenship for India."
+      ],
+      "upsc": "Separate constitutional provisions at commencement from current statutory citizenship rules."
+    },
+    "part3": {
+      "title": "Part III — Fundamental Rights",
+      "subtitle": "Articles 12–35",
+      "articles": "Art. 12–35",
+      "tags": [
+        "Very High Yield",
+        "Prelims",
+        "GS-II"
+      ],
+      "core": "Justiciable rights restrain State action and protect liberty, equality, religious freedom, cultural/educational rights and constitutional remedies.",
+      "points": [
+        "Art. 14 equality; 19 freedoms; 21 life & personal liberty.",
+        "Art. 20 and 21 cannot be suspended even during an Emergency under Art. 359.",
+        "Art. 32: right to constitutional remedies; Supreme Court writ jurisdiction."
+      ],
+      "upsc": "Always connect Art. 14 + 19 + 21 (‘golden triangle’), reasonable restrictions, positive obligations and judicial review."
+    },
+    "part4": {
+      "title": "Part IV — Directive Principles",
+      "subtitle": "Articles 36–51",
+      "articles": "Art. 36–51",
+      "tags": [
+        "GS-II",
+        "Mains"
+      ],
+      "core": "Non-justiciable principles directing the State toward social and economic democracy and a welfare state.",
+      "points": [
+        "Art. 38 social order; 39 socio-economic principles; 39A free legal aid.",
+        "Art. 44 Uniform Civil Code; 48A environment; 50 separation of judiciary from executive.",
+        "FR–DPSP harmony is part of constitutional balance."
+      ],
+      "upsc": "Mains favorite: tension and harmony between individual rights and socio-economic transformation."
+    },
+    "part4a": {
+      "title": "Part IVA — Fundamental Duties",
+      "subtitle": "Article 51A",
+      "articles": "Art. 51A",
+      "tags": [
+        "Prelims",
+        "Ethics"
+      ],
+      "core": "Eleven Fundamental Duties guide civic responsibility; most are not directly enforceable unless supported by law.",
+      "points": [
+        "Added by 42nd Amendment (1976), originally 10 duties.",
+        "86th Amendment added parent/guardian duty concerning education of children 6–14.",
+        "Can inform interpretation of laws and reasonable restrictions."
+      ],
+      "upsc": "Useful in Ethics, environment, scientific temper and citizenship answers."
+    },
+    "part5": {
+      "title": "Part V — The Union",
+      "subtitle": "Articles 52–151",
+      "articles": "Art. 52–151",
+      "tags": [
+        "Very High Yield",
+        "GS-II"
+      ],
+      "core": "Union executive, Parliament, legislative procedure, Supreme Court and CAG.",
+      "points": [
+        "President: constitutional head; Council of Ministers aids and advises.",
+        "Parliament = President + Rajya Sabha + Lok Sabha.",
+        "Supreme Court: constitutional adjudication and judicial review; CAG audits public finances."
+      ],
+      "upsc": "Break this Part into Executive, Parliament, Judiciary and CAG for revision."
+    },
+    "part6": {
+      "title": "Part VI — The States",
+      "subtitle": "Articles 152–237",
+      "articles": "Art. 152–237",
+      "tags": [
+        "Federalism",
+        "GS-II"
+      ],
+      "core": "State executive, legislatures, High Courts and subordinate courts.",
+      "points": [
+        "Governor is constitutional head of State.",
+        "Arts. 163–164: Council of Ministers headed by CM.",
+        "High Courts have broader writ reach under Art. 226 than SC under Art. 32 in subject matter."
+      ],
+      "upsc": "Governor’s discretion, assent to Bills and Centre–State friction are recurring GS-II themes."
+    },
+    "part8": {
+      "title": "Part VIII — Union Territories",
+      "subtitle": "Articles 239–242",
+      "articles": "Art. 239 onward",
+      "tags": [
+        "Prelims",
+        "Federalism"
+      ],
+      "core": "Union Territories are administered under a constitutionally distinct framework; some have legislatures and Councils of Ministers.",
+      "points": [
+        "Art. 239: administration of UTs.",
+        "Art. 239AA: special provisions for NCT of Delhi.",
+        "Legislative powers vary by UT."
+      ],
+      "upsc": "Delhi federalism and LG–elected government disputes are important contemporary constitutional themes."
+    },
+    "part9": {
+      "title": "Part IX — Panchayats",
+      "subtitle": "Articles 243–243O",
+      "articles": "Art. 243–243O",
+      "tags": [
+        "73rd Amendment",
+        "Prelims"
+      ],
+      "core": "Constitutional framework for rural local self-government.",
+      "points": [
+        "73rd Amendment; constitutional status to Panchayats.",
+        "Three-tier structure subject to population exceptions.",
+        "Eleventh Schedule lists 29 subjects."
+      ],
+      "upsc": "Revise reservations, State Election Commission, State Finance Commission and Gram Sabha."
+    },
+    "part9a": {
+      "title": "Part IXA — Municipalities",
+      "subtitle": "Articles 243P–243ZG",
+      "articles": "Art. 243P–243ZG",
+      "tags": [
+        "74th Amendment",
+        "Prelims"
+      ],
+      "core": "Constitutional framework for urban local self-government.",
+      "points": [
+        "74th Amendment; Nagar Panchayat, Municipal Council, Municipal Corporation.",
+        "Twelfth Schedule lists 18 functions.",
+        "Ward Committees and metropolitan/district planning matter for urban governance."
+      ],
+      "upsc": "Strong overlap with GS-II governance and GS-I urbanisation."
+    },
+    "part9b": {
+      "title": "Part IXB — Co-operative Societies",
+      "subtitle": "Articles 243ZH–243ZT",
+      "articles": "Art. 243ZH–243ZT",
+      "tags": [
+        "97th Amendment",
+        "Advanced"
+      ],
+      "core": "Constitutional provisions relating to co-operative societies.",
+      "points": [
+        "Inserted by the 97th Amendment.",
+        "Supreme Court (2021) invalidated the amendment insofar as it governed State co-operatives without required State ratification; provisions continue in relation to multi-State co-operatives.",
+        "Art. 43B in DPSP and co-operative freedom under Art. 19(1)(c) were also introduced."
+      ],
+      "upsc": "Useful for federalism + co-operative movement questions."
+    },
+    "part10": {
+      "title": "Part X — Scheduled & Tribal Areas",
+      "subtitle": "Articles 244–244A",
+      "articles": "Art. 244–244A",
+      "tags": [
+        "Tribes",
+        "Prelims"
+      ],
+      "core": "Special administration of Scheduled and Tribal Areas through the Fifth and Sixth Schedules.",
+      "points": [
+        "Fifth Schedule: Scheduled Areas and Scheduled Tribes outside Sixth Schedule areas.",
+        "Sixth Schedule: autonomous arrangements in Assam, Meghalaya, Tripura and Mizoram.",
+        "Art. 244A permits an autonomous State framework within Assam."
+      ],
+      "upsc": "Know Fifth vs Sixth Schedule differences."
+    },
+    "part11": {
+      "title": "Part XI — Union–State Relations",
+      "subtitle": "Articles 245–263",
+      "articles": "Art. 245–263",
+      "tags": [
+        "Very High Yield",
+        "Federalism"
+      ],
+      "core": "Legislative and administrative relations between Union and States.",
+      "points": [
+        "Art. 246 + Seventh Schedule distribute legislative subjects.",
+        "Arts. 249, 250, 252, 253 allow Parliament to legislate in special circumstances.",
+        "Art. 263: Inter-State Council."
+      ],
+      "upsc": "Core federalism chapter: legislative competence, repugnancy, inter-governmental coordination."
+    },
+    "part12": {
+      "title": "Part XII — Finance, Property, Contracts & Suits",
+      "subtitle": "Articles 264–300A",
+      "articles": "Art. 264–300A",
+      "tags": [
+        "Economy",
+        "Federalism"
+      ],
+      "core": "Public finance, taxation, Finance Commission, borrowing, government property/contracts and right to property.",
+      "points": [
+        "Art. 265: no tax except by authority of law.",
+        "Art. 280: Finance Commission.",
+        "Art. 300A: property is a constitutional/legal right, not a Fundamental Right."
+      ],
+      "upsc": "Link Finance Commission and GST-era fiscal federalism to constitutional design."
+    },
+    "part13": {
+      "title": "Part XIII — Trade, Commerce & Intercourse",
+      "subtitle": "Articles 301–307",
+      "articles": "Art. 301–307",
+      "tags": [
+        "Economy",
+        "Prelims"
+      ],
+      "core": "Freedom of trade, commerce and intercourse across India, subject to constitutional restrictions.",
+      "points": [
+        "Art. 301 gives the general freedom.",
+        "Parliament and States may impose constitutionally permitted restrictions.",
+        "Important for economic unity and federal market questions."
+      ],
+      "upsc": "Less frequent, but useful for conceptual federalism/economic-union MCQs."
+    },
+    "part14": {
+      "title": "Part XIV — Services",
+      "subtitle": "Articles 308–323",
+      "articles": "Art. 308–323",
+      "tags": [
+        "UPSC",
+        "Services"
+      ],
+      "core": "Services under Union and States and Public Service Commissions.",
+      "points": [
+        "Art. 309 recruitment/service conditions.",
+        "Art. 310 doctrine of pleasure, subject to safeguards.",
+        "Art. 311 safeguards civil servants against dismissal/removal/reduction in rank."
+      ],
+      "upsc": "Directly relevant to civil-service neutrality, accountability and safeguards."
+    },
+    "part14a": {
+      "title": "Part XIVA — Tribunals",
+      "subtitle": "Articles 323A–323B",
+      "articles": "Art. 323A–323B",
+      "tags": [
+        "Judiciary",
+        "GS-II"
+      ],
+      "core": "Constitutional basis for administrative and other tribunals.",
+      "points": [
+        "Added by 42nd Amendment.",
+        "323A: administrative tribunals.",
+        "323B: tribunals for specified matters."
+      ],
+      "upsc": "Judicial independence, tribunal reform and High Court review are recurring issues."
+    },
+    "part15": {
+      "title": "Part XV — Elections",
+      "subtitle": "Articles 324–329",
+      "articles": "Art. 324–329",
+      "tags": [
+        "Very High Yield",
+        "Prelims"
+      ],
+      "core": "Constitutional architecture for elections, centred on the Election Commission of India.",
+      "points": [
+        "Art. 324: superintendence, direction and control of elections.",
+        "Art. 325: one general electoral roll; no exclusion on listed identity grounds.",
+        "Art. 326: adult suffrage."
+      ],
+      "upsc": "Connect ECI independence, MCC (statutory vs non-statutory aspects), disqualification and electoral reforms."
+    },
+    "part16": {
+      "title": "Part XVI — Special Provisions for Certain Classes",
+      "subtitle": "Articles 330–342A",
+      "articles": "Art. 330–342A",
+      "tags": [
+        "Social Justice",
+        "Prelims"
+      ],
+      "core": "Representation and constitutional identification/safeguards concerning SCs, STs and socially/educationally backward classes.",
+      "points": [
+        "Political reservation for SC/ST in legislatures.",
+        "Arts. 338, 338A, 338B: constitutional commissions.",
+        "Arts. 341, 342 and 342A concern specification of SC/ST/SEBC."
+      ],
+      "upsc": "Pair constitutional commissions with their Articles."
+    },
+    "part17": {
+      "title": "Part XVII — Official Language",
+      "subtitle": "Articles 343–351",
+      "articles": "Art. 343–351",
+      "tags": [
+        "Prelims",
+        "Language"
+      ],
+      "core": "Official-language framework of the Union, States and courts, with protections for linguistic diversity.",
+      "points": [
+        "Hindi in Devanagari script is official language of Union under Art. 343.",
+        "English continues for official purposes under parliamentary law.",
+        "Eighth Schedule currently contains 22 languages."
+      ],
+      "upsc": "Avoid confusing ‘official language’ with ‘national language’—the Constitution does not declare a national language."
+    },
+    "part18": {
+      "title": "Part XVIII — Emergency Provisions",
+      "subtitle": "Articles 352–360",
+      "articles": "Art. 352–360",
+      "tags": [
+        "Very High Yield",
+        "Prelims",
+        "GS-II"
+      ],
+      "core": "National Emergency, President’s Rule and Financial Emergency.",
+      "points": [
+        "Art. 352: war, external aggression or armed rebellion.",
+        "Art. 356: failure of constitutional machinery in a State.",
+        "Art. 360: Financial Emergency; never proclaimed so far."
+      ],
+      "upsc": "44th Amendment safeguards + S.R. Bommai limits on Art. 356 are essential."
+    },
+    "part19": {
+      "title": "Part XIX — Miscellaneous",
+      "subtitle": "Articles 361–367",
+      "articles": "Art. 361–367",
+      "tags": [
+        "Prelims"
+      ],
+      "core": "Miscellaneous provisions including protections for President/Governors and interpretation provisions.",
+      "points": [
+        "Art. 361: certain immunities of President and Governors while in office.",
+        "Art. 366 contains definitions.",
+        "Art. 367 concerns interpretation."
+      ],
+      "upsc": "Often appears as statement-based Prelims material."
+    },
+    "part20": {
+      "title": "Part XX — Amendment of Constitution",
+      "subtitle": "Article 368",
+      "articles": "Art. 368",
+      "tags": [
+        "Basic Structure",
+        "Very High Yield"
+      ],
+      "core": "Procedure and power to amend the Constitution, constrained by the judicially evolved Basic Structure doctrine.",
+      "points": [
+        "Three broad routes: simple majority outside Art. 368; special majority; special majority + ratification by at least half of States for federal provisions.",
+        "Kesavananda Bharati (1973): Basic Structure cannot be destroyed.",
+        "Judicial review of amendments remains possible."
+      ],
+      "upsc": "One of the highest-yield constitutional topics for both Prelims and Mains."
+    },
+    "part21": {
+      "title": "Part XXI — Temporary, Transitional & Special Provisions",
+      "subtitle": "Articles 369–392",
+      "articles": "Art. 369–392",
+      "tags": [
+        "Federalism",
+        "Special Provisions"
+      ],
+      "core": "Temporary/transitional provisions and special arrangements for various States.",
+      "points": [
+        "Includes Art. 371 series special provisions for several States.",
+        "Art. 370 text remains in Constitution but its operative legal position changed following 2019 measures and subsequent Supreme Court adjudication.",
+        "Useful for asymmetric federalism."
+      ],
+      "upsc": "Treat special provisions as examples of differentiated/asymmetric federalism."
+    },
+    "part22": {
+      "title": "Part XXII — Short Title, Commencement, Hindi Text & Repeals",
+      "subtitle": "Articles 393–395",
+      "articles": "Art. 393–395",
+      "tags": [
+        "Prelims"
+      ],
+      "core": "Closing provisions of the Constitution.",
+      "points": [
+        "Art. 393: short title.",
+        "Art. 394: commencement.",
+        "Art. 394A: authoritative Hindi text; Art. 395: repeals."
+      ],
+      "upsc": "Low frequency, useful for elimination-based MCQs."
+    },
+    "sch1": {
+      "title": "First Schedule",
+      "subtitle": "States and Union Territories",
+      "articles": "Arts. 1 & 4",
+      "tags": [
+        "Schedule",
+        "Prelims"
+      ],
+      "core": "Names and territorial descriptions of States and Union Territories.",
+      "points": [
+        "Closely linked with Arts. 1–4.",
+        "Changes may accompany State reorganisation."
+      ],
+      "upsc": "Map-based polity + reorganisation questions."
+    },
+    "sch5": {
+      "title": "Fifth Schedule",
+      "subtitle": "Scheduled Areas and Scheduled Tribes",
+      "articles": "Art. 244(1)",
+      "tags": [
+        "Tribes",
+        "Prelims"
+      ],
+      "core": "Administration and control of Scheduled Areas and Scheduled Tribes in specified areas.",
+      "points": [
+        "Governor has special responsibilities.",
+        "Tribes Advisory Council is important.",
+        "Different from Sixth Schedule autonomous councils."
+      ],
+      "upsc": "Frequently compared with Sixth Schedule."
+    },
+    "sch6": {
+      "title": "Sixth Schedule",
+      "subtitle": "Tribal Areas in four North-Eastern States",
+      "articles": "Arts. 244(2), 275(1)",
+      "tags": [
+        "Tribes",
+        "Federalism"
+      ],
+      "core": "Autonomous District/Regional Councils in tribal areas of Assam, Meghalaya, Tripura and Mizoram.",
+      "points": [
+        "Legislative/judicial/financial powers in specified fields.",
+        "Not applicable to every North-Eastern State."
+      ],
+      "upsc": "Memorise the four States."
+    },
+    "sch7": {
+      "title": "Seventh Schedule",
+      "subtitle": "Union, State and Concurrent Lists",
+      "articles": "Art. 246",
+      "tags": [
+        "Federalism",
+        "Very High Yield"
+      ],
+      "core": "Three legislative lists distribute subjects between Parliament and State legislatures.",
+      "points": [
+        "Union List, State List, Concurrent List.",
+        "Residuary legislative power lies with Parliament.",
+        "Repugnancy in Concurrent field is governed principally by Art. 254."
+      ],
+      "upsc": "Core to legislative federalism."
+    },
+    "sch8": {
+      "title": "Eighth Schedule",
+      "subtitle": "22 languages",
+      "articles": "Arts. 344 & 351",
+      "tags": [
+        "Language",
+        "Prelims"
+      ],
+      "core": "Recognised scheduled languages of the Constitution.",
+      "points": [
+        "Currently 22 languages.",
+        "English is not in the Eighth Schedule.",
+        "Being scheduled does not make a language the ‘national language’."
+      ],
+      "upsc": "Classic factual MCQ area."
+    },
+    "sch10": {
+      "title": "Tenth Schedule",
+      "subtitle": "Anti-defection",
+      "articles": "Arts. 102(2), 191(2)",
+      "tags": [
+        "Parliament",
+        "High Yield"
+      ],
+      "core": "Disqualification of legislators on ground of defection.",
+      "points": [
+        "Added by 52nd Amendment (1985).",
+        "Decision is made by Speaker/Chairman, subject to judicial review.",
+        "91st Amendment removed split exception and strengthened anti-defection framework."
+      ],
+      "upsc": "Mains debate: stability vs deliberative freedom."
+    },
+    "sch11": {
+      "title": "Eleventh Schedule",
+      "subtitle": "29 Panchayat subjects",
+      "articles": "Art. 243G",
+      "tags": [
+        "Local Government",
+        "Prelims"
+      ],
+      "core": "29 functional subjects that may be devolved to Panchayats.",
+      "points": [
+        "Added by 73rd Amendment.",
+        "Devolution depends substantially on State legislation."
+      ],
+      "upsc": "Remember 29 subjects."
+    },
+    "sch12": {
+      "title": "Twelfth Schedule",
+      "subtitle": "18 Municipal functions",
+      "articles": "Art. 243W",
+      "tags": [
+        "Urban Governance",
+        "Prelims"
+      ],
+      "core": "18 functional areas that may be entrusted to Municipalities.",
+      "points": [
+        "Added by 74th Amendment.",
+        "Includes urban planning, roads, water supply, sanitation and more."
+      ],
+      "upsc": "Remember 18 functions."
+    }
+  },
+  "schedules": [
+    [
+      "1",
+      "States & Union Territories",
+      "Arts. 1, 4",
+      "Territorial description of States and Union Territories."
+    ],
+    [
+      "2",
+      "Constitutional Offices",
+      "Multiple",
+      "Emoluments/allowances and provisions concerning specified constitutional authorities."
+    ],
+    [
+      "3",
+      "Oaths & Affirmations",
+      "Multiple",
+      "Forms of oaths or affirmations."
+    ],
+    [
+      "4",
+      "Rajya Sabha Seats",
+      "Arts. 4, 80",
+      "Allocation of seats in the Council of States."
+    ],
+    [
+      "5",
+      "Scheduled Areas & STs",
+      "Art. 244(1)",
+      "Administration and control of Scheduled Areas and Scheduled Tribes."
+    ],
+    [
+      "6",
+      "Tribal Areas",
+      "Arts. 244(2), 275(1)",
+      "Autonomous arrangements in Assam, Meghalaya, Tripura and Mizoram."
+    ],
+    [
+      "7",
+      "Legislative Lists",
+      "Art. 246",
+      "Union, State and Concurrent Lists."
+    ],
+    [
+      "8",
+      "Languages",
+      "Arts. 344, 351",
+      "22 scheduled languages."
+    ],
+    [
+      "9",
+      "Certain Acts & Regulations",
+      "Art. 31B",
+      "Historically used to shield listed laws; subject to Basic Structure review after I.R. Coelho."
+    ],
+    [
+      "10",
+      "Anti-defection",
+      "Arts. 102(2), 191(2)",
+      "Disqualification on ground of defection."
+    ],
+    [
+      "11",
+      "Panchayats",
+      "Art. 243G",
+      "29 subjects."
+    ],
+    [
+      "12",
+      "Municipalities",
+      "Art. 243W",
+      "18 functions."
+    ]
+  ],
+  "amendments": [
+    [
+      "1951",
+      "1st Amendment",
+      "Added, among other changes, Art. 15(4), Arts. 31A–31B and Ninth Schedule; also altered speech-related restrictions."
+    ],
+    [
+      "1956",
+      "7th Amendment",
+      "Major State reorganisation-era constitutional changes; reorganised constitutional classification of States/UTs."
+    ],
+    [
+      "1971",
+      "24th Amendment",
+      "Affirmed Parliament’s constituent power to amend and made presidential assent to an Art. 368 amendment bill mandatory."
+    ],
+    [
+      "1971",
+      "25th Amendment",
+      "Introduced Art. 31C in its original form and altered property-right provisions."
+    ],
+    [
+      "1976",
+      "42nd Amendment",
+      "‘Mini-Constitution’: Preamble additions, Fundamental Duties, tribunals and wide institutional changes."
+    ],
+    [
+      "1978",
+      "44th Amendment",
+      "Reversed several Emergency-era changes; replaced ‘internal disturbance’ with ‘armed rebellion’; strengthened liberty safeguards."
+    ],
+    [
+      "1985",
+      "52nd Amendment",
+      "Inserted Tenth Schedule (anti-defection)."
+    ],
+    [
+      "1989",
+      "61st Amendment",
+      "Reduced voting age from 21 to 18."
+    ],
+    [
+      "1992",
+      "73rd Amendment",
+      "Constitutionalised Panchayats; Part IX + Eleventh Schedule."
+    ],
+    [
+      "1992",
+      "74th Amendment",
+      "Constitutionalised Municipalities; Part IXA + Twelfth Schedule."
+    ],
+    [
+      "2002",
+      "86th Amendment",
+      "Inserted Art. 21A (education 6–14), modified Art. 45 and added Art. 51A(k)."
+    ],
+    [
+      "2003",
+      "91st Amendment",
+      "Strengthened anti-defection rules and capped size of Councils of Ministers at 15% (subject to minimum for States)."
+    ],
+    [
+      "2011",
+      "97th Amendment",
+      "Co-operative societies: Art. 19(1)(c), Art. 43B and Part IXB; Part IXB later partly invalidated for State co-operatives by SC (2021)."
+    ],
+    [
+      "2016",
+      "101st Amendment",
+      "Introduced GST constitutional framework, including GST Council."
+    ],
+    [
+      "2018",
+      "102nd Amendment",
+      "Constitutional status to NCBC; inserted Art. 338B and 342A framework."
+    ],
+    [
+      "2019",
+      "103rd Amendment",
+      "Enabled up to 10% reservation for Economically Weaker Sections under Arts. 15(6) and 16(6)."
+    ],
+    [
+      "2020",
+      "104th Amendment",
+      "Extended SC/ST legislative reservation; ended Anglo-Indian nominated-seat provision at the relevant level."
+    ],
+    [
+      "2021",
+      "105th Amendment",
+      "Restored/clarified States’ power to identify SEBCs for their own purposes."
+    ],
+    [
+      "2023",
+      "106th Amendment",
+      "Provides one-third reservation for women in Lok Sabha, State Assemblies and Delhi Assembly; operation is linked to a future delimitation after the first census taken after commencement."
+    ]
+  ],
+  "cases": [
+    [
+      "Kesavananda Bharati v State of Kerala",
+      "1973",
+      "Basic Structure",
+      "Parliament’s amendment power is broad but cannot destroy the Constitution’s Basic Structure."
+    ],
+    [
+      "Maneka Gandhi v Union of India",
+      "1978",
+      "Article 21",
+      "Procedure affecting life/liberty must be fair, just and reasonable; Arts. 14, 19 and 21 became deeply interconnected."
+    ],
+    [
+      "Minerva Mills v Union of India",
+      "1980",
+      "FR–DPSP Balance",
+      "Limited amending power and harmony between Fundamental Rights and DPSPs are constitutionally fundamental."
+    ],
+    [
+      "S.R. Bommai v Union of India",
+      "1994",
+      "Article 356 / Federalism",
+      "President’s Rule is judicially reviewable; floor test and federal/secular principles gained central importance."
+    ],
+    [
+      "I.R. Coelho v State of Tamil Nadu",
+      "2007",
+      "Ninth Schedule",
+      "Post-24 April 1973 Ninth Schedule laws can be tested against Basic Structure through their impact on core rights."
+    ],
+    [
+      "Supreme Court Advocates-on-Record Assn. v Union of India",
+      "2015",
+      "NJAC",
+      "99th Amendment/NJAC struck down; judicial independence treated as part of Basic Structure."
+    ],
+    [
+      "K.S. Puttaswamy v Union of India",
+      "2017",
+      "Privacy",
+      "Privacy recognised as a Fundamental Right under the liberty/dignity framework."
+    ],
+    [
+      "Janhit Abhiyan v Union of India",
+      "2022",
+      "EWS Reservation",
+      "Supreme Court upheld the 103rd Amendment enabling EWS reservation."
+    ],
+    [
+      "Government of NCT of Delhi v Union of India",
+      "2018 / 2023",
+      "Delhi Governance",
+      "Clarified representative government, aid-and-advice and control questions in the NCT’s special constitutional framework."
+    ]
+  ],
+  "quiz": [
+    {
+      "q": "Which Article is called the constitutional remedy provision for enforcement of Fundamental Rights before the Supreme Court?",
+      "opts": [
+        "Article 19",
+        "Article 21",
+        "Article 32",
+        "Article 226"
+      ],
+      "a": 2
+    },
+    {
+      "q": "The Tenth Schedule primarily deals with:",
+      "opts": [
+        "Tribal areas",
+        "Anti-defection",
+        "Languages",
+        "Municipalities"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Which Schedule contains the Union, State and Concurrent Lists?",
+      "opts": [
+        "Fifth",
+        "Sixth",
+        "Seventh",
+        "Ninth"
+      ],
+      "a": 2
+    },
+    {
+      "q": "Fundamental Duties are placed in:",
+      "opts": [
+        "Part III",
+        "Part IV",
+        "Part IVA",
+        "Part V"
+      ],
+      "a": 2
+    },
+    {
+      "q": "Article 280 concerns the:",
+      "opts": [
+        "Election Commission",
+        "Finance Commission",
+        "CAG",
+        "UPSC"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Which amendment lowered the voting age to 18?",
+      "opts": [
+        "44th",
+        "52nd",
+        "61st",
+        "73rd"
+      ],
+      "a": 2
+    },
+    {
+      "q": "The Basic Structure doctrine is classically associated with:",
+      "opts": [
+        "A.K. Gopalan",
+        "Kesavananda Bharati",
+        "S.R. Bommai",
+        "Puttaswamy"
+      ],
+      "a": 1
+    },
+    {
+      "q": "The Eleventh Schedule is associated with:",
+      "opts": [
+        "Municipalities",
+        "Panchayats",
+        "Anti-defection",
+        "Languages"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Which Article provides the constitutional amendment procedure?",
+      "opts": [
+        "356",
+        "360",
+        "368",
+        "324"
+      ],
+      "a": 2
+    },
+    {
+      "q": "The Constitution of India declares which language as the ‘national language’?",
+      "opts": [
+        "Hindi",
+        "Hindi and English",
+        "Sanskrit",
+        "None"
+      ],
+      "a": 3
+    }
+  ]
+}

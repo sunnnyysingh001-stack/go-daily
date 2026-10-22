@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>The Constitution | GO DAILY</title>
+<style>
+:root{
+  --bg:#09111f; --panel:#101b2e; --panel2:#14233b; --text:#eef5ff; --muted:#9fb2cc;
+  --line:#314665; --accent:#ffd166; --good:#4dd4ac; --danger:#ff7b86; --blue:#72a7ff;
+}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(circle at 50% 0%,#172741 0,#09111f 45%,#060b14 100%);color:var(--text);font:15px/1.45 Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;min-height:100vh}
+button,input{font:inherit}
+.topbar{position:sticky;top:0;z-index:20;display:flex;gap:10px;align-items:center;padding:12px 14px;background:rgba(7,13,24,.88);backdrop-filter:blur(16px);border-bottom:1px solid #22324b}
+.brand{font-weight:850;letter-spacing:.2px;white-space:nowrap}.brand b{color:var(--accent)}
+.search{flex:1;max-width:660px;margin:auto;position:relative}.search input{width:100%;background:#101b2e;border:1px solid #2c405e;color:white;border-radius:14px;padding:11px 14px;outline:none}.search input:focus{border-color:#6d8fbe;box-shadow:0 0 0 3px #253b5d55}
+.topbtn{background:#14233b;border:1px solid #2d4363;color:#eaf2ff;border-radius:12px;padding:9px 11px;cursor:pointer}.topbtn:hover{background:#1a2c48}
+.layout{display:grid;grid-template-columns:minmax(0,1fr) 360px;min-height:calc(100vh - 62px)}
+.main{min-width:0}
+.tabs{display:flex;gap:8px;padding:12px 14px 0;overflow:auto}.tab{border:1px solid #2c405e;background:#0e192a;color:#b8c7db;border-radius:999px;padding:8px 13px;cursor:pointer;white-space:nowrap}.tab.active{background:#223758;color:white;border-color:#5778a7}
+.stage{position:relative;height:calc(100vh - 112px);min-height:620px;overflow:hidden;touch-action:none}
+#mapSvg{width:100%;height:100%;display:block;cursor:grab}#mapSvg:active{cursor:grabbing}
+.edge{stroke:#355071;stroke-width:2;opacity:.75}.edge.sub{stroke:#30415a;stroke-dasharray:5 6;opacity:.7}
+.node text{fill:#edf5ff;font-weight:750;pointer-events:none}.node .subtxt{fill:#9db1ce;font-weight:500;font-size:11px}.node circle{stroke:#5d789d;stroke-width:2;fill:#12233b;filter:drop-shadow(0 10px 16px rgba(0,0,0,.25));transition:.15s}.node:hover circle,.node.active circle{stroke:#ffd166;stroke-width:3;fill:#1d3150}.node.done circle{stroke:#4dd4ac}.node.search-hit circle{stroke:#ff7b86;stroke-width:4}
+.center circle{fill:#21395e;stroke:#ffd166;stroke-width:3}.center text{font-size:18px}.center .subtxt{font-size:12px}
+.hint{position:absolute;left:18px;bottom:16px;background:#0d1829d9;border:1px solid #2a3f5e;padding:9px 12px;border-radius:12px;color:#9eb0c8;font-size:12px}
+.panel{border-left:1px solid #22324b;background:rgba(10,18,31,.88);backdrop-filter:blur(12px);padding:18px;overflow:auto;max-height:calc(100vh - 62px)}
+.panel h2{margin:0 0 4px;font-size:22px}.kicker{color:var(--accent);font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.13em}.muted{color:var(--muted)}
+.chips{display:flex;gap:7px;flex-wrap:wrap;margin:12px 0}.chip{border:1px solid #314866;background:#14243a;border-radius:999px;padding:5px 8px;font-size:12px;color:#c9d8ea}
+.card{background:#101c2f;border:1px solid #243952;border-radius:14px;padding:13px;margin:12px 0}.card h3{margin:0 0 7px;font-size:13px;color:#bfd1e8;text-transform:uppercase;letter-spacing:.08em}.card ul{padding-left:18px;margin:8px 0}.card li{margin:5px 0}
+.revise{width:100%;border:0;border-radius:12px;padding:10px 12px;background:#1f765e;color:white;font-weight:800;cursor:pointer}.revise.done{background:#2a4c46;color:#a7efd7}
+.view{display:none;padding:18px;overflow:auto;height:calc(100vh - 112px)}.view.active{display:block}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}.info{background:#0f1b2e;border:1px solid #263b58;border-radius:15px;padding:14px;transition:.15s}.info:hover{transform:translateY(-2px);border-color:#4b6b96}.info h3{margin:0 0 6px;font-size:16px}.badge{display:inline-block;font-size:11px;border:1px solid #334b6b;border-radius:999px;padding:3px 7px;color:#aac0dc;margin-bottom:8px}
+.timeline{display:grid;gap:10px}.amend{display:grid;grid-template-columns:90px 1fr;gap:12px;background:#0f1b2e;border:1px solid #263b58;border-radius:14px;padding:12px}.year{color:#ffd166;font-weight:850}
+.quizbox{max-width:760px;margin:20px auto;background:#0e1a2d;border:1px solid #2b405e;border-radius:18px;padding:20px}.qnum{color:#9eb2ce;font-size:12px}.question{font-size:21px;font-weight:800;margin:8px 0 16px}.option{display:block;width:100%;text-align:left;background:#122139;border:1px solid #2d4567;color:white;padding:11px 12px;border-radius:12px;margin:8px 0;cursor:pointer}.option:hover{background:#1a2c48}.option.correct{border-color:#4dd4ac;background:#15392f}.option.wrong{border-color:#ff7b86;background:#40212b}.quizactions{display:flex;justify-content:space-between;align-items:center;margin-top:15px}.score{color:#ffd166;font-weight:850}
+.mobile-panel-btn{display:none}
+@media(max-width:900px){
+ .layout{grid-template-columns:1fr}.panel{position:fixed;z-index:30;right:0;top:62px;bottom:0;width:min(92vw,380px);transform:translateX(105%);transition:.2s;box-shadow:-20px 0 50px #0008}.panel.open{transform:none}
+ .mobile-panel-btn{display:inline-block}.brand span{display:none}.stage{height:calc(100vh - 112px)}
+}
+@media(max-width:600px){.topbar{padding:9px;flex-wrap:wrap}.search{order:2;flex-basis:100%}.topbtn{padding:8px}.tabs{padding-left:9px}.view{padding:12px}.amend{grid-template-columns:70px 1fr}}
+</style>
+</head>
+<body>
+<header class="topbar"><a href="/constitution" target="_top" class="topbtn" style="text-decoration:none" aria-label="Return to GO DAILY">← GO DAILY</a>
+  <div class="brand">🇮🇳 <b>The Constitution</b></div>
+  <div class="search"><input id="search" placeholder="Search Article 21, DPSP, emergency, anti-defection…" /></div>
+  <button class="topbtn" id="resetBtn">Reset</button>
+  <button class="topbtn mobile-panel-btn" id="panelBtn">Details</button>
+</header>
+
+<div class="layout">
+<main class="main">
+  <div class="tabs">
+    <button class="tab active" data-view="map">Visual Map</button>
+    <button class="tab" data-view="schedules">12 Schedules</button>
+    <button class="tab" data-view="amendments">Amendments</button>
+    <button class="tab" data-view="cases">Landmark Cases</button>
+    <button class="tab" data-view="quiz">Quick Quiz</button>
+  </div>
+
+  <section class="stage" id="mapView">
+    <svg id="mapSvg" viewBox="0 0 1400 900" aria-label="Interactive map of the Indian Constitution">
+      <g id="world"></g>
+    </svg>
+    <div class="hint">Drag to pan · wheel/pinch to zoom · click a branch to expand · click a topic for UPSC notes</div>
+  </section>
+
+  <section class="view" id="schedulesView">
+    <h2>12 Schedules — one-screen revision</h2>
+    <p class="muted">Click any card to load it in the detail panel.</p>
+    <div class="grid" id="scheduleGrid"></div>
+  </section>
+
+  <section class="view" id="amendmentsView">
+    <h2>High-yield Constitutional Amendments</h2>
+    <p class="muted">A focused timeline for Prelims + GS-II, not an exhaustive list of every amendment.</p>
+    <div class="timeline" id="amendTimeline"></div>
+  </section>
+
+  <section class="view" id="casesView">
+    <h2>Landmark Constitutional Cases</h2>
+    <p class="muted">Use these as doctrine anchors in Mains answers.</p>
+    <div class="grid" id="caseGrid"></div>
+  </section>
+
+  <section class="view" id="quizView">
+    <div class="quizbox">
+      <div class="qnum" id="qnum"></div>
+      <div class="question" id="question"></div>
+      <div id="options"></div>
+      <div class="quizactions"><span class="score" id="score"></span><button class="topbtn" id="nextQ">Next →</button></div>
+    </div>
+  </section>
+</main>
+
+<aside class="panel" id="panel">
+  <div class="kicker">UPSC Revision Lens</div>
+  <h2 id="detailTitle">Constitution of India</h2>
+  <div class="muted" id="detailSubtitle">Click a branch on the map to start.</div>
+  <div class="chips" id="detailChips"></div>
+  <div class="card"><h3>Core idea</h3><div id="detailCore">A visual map connecting constitutional Parts, Articles, institutions, schedules, amendments and landmark doctrines.</div></div>
+  <div class="card"><h3>Must remember</h3><ul id="detailPoints"><li>Preamble → constitutional philosophy</li><li>Parts III & IV → rights and governance goals</li><li>Article 368 → amendment power, limited by Basic Structure</li></ul></div>
+  <div class="card"><h3>UPSC angle</h3><div id="detailUpsc">Use the map for Prelims recall; use cases + constitutional tensions for GS-II Mains.</div></div>
+  <button class="revise" id="reviseBtn">✓ Mark as revised</button>
+</aside>
+</div>
+
+<script>
+const DATA = {
+ categories: [
+  {id:"foundations", label:"Foundations", sub:"Preamble · Union · Citizenship", x:700,y:135, color:"#FFD166", children:["preamble","part1","part2","part22"]},
+  {id:"rights", label:"Rights & Duties", sub:"FR · DPSP · Duties", x:1060,y:250, color:"#72A7FF", children:["part3","part4","part4a"]},
+  {id:"union", label:"Union Government", sub:"Executive · Parliament · Judiciary", x:1170,y:520, color:"#9D8CFF", children:["part5"]},
+  {id:"federal", label:"States & Federalism", sub:"States · UTs · Relations", x:1010,y:760, color:"#55D6BE", children:["part6","part8","part10","part11","part12","part13"]},
+  {id:"local", label:"Local Democracy", sub:"Panchayats · Municipalities · Co-ops", x:700,y:825, color:"#7BD389", children:["part9","part9a","part9b"]},
+  {id:"institutions", label:"Institutions", sub:"Services · Tribunals · Elections", x:390,y:760, color:"#F3A683", children:["part14","part14a","part15","part16","part17"]},
+  {id:"emergency", label:"Emergency & Change", sub:"Emergency · Amendment · Transitional", x:230,y:520, color:"#FF7B86", children:["part18","part19","part20","part21"]},
+  {id:"schedules", label:"Schedules", sub:"1–12 · high-yield map", x:340,y:250, color:"#5EC8E5", children:["sch1","sch5","sch6","sch7","sch8","sch10","sch11","sch12"]}
+ ],
+ topics: {
+  preamble:{title:"Preamble", subtitle:"Constitutional philosophy", articles:"Keywords", tags:["Prelims","GS-II","Essay"], core:"Sovereign, Socialist, Secular, Democratic, Republic; Justice, Liberty, Equality and Fraternity. The Preamble guides constitutional interpretation.", points:["42nd Amendment added ‘Socialist’, ‘Secular’ and ‘integrity’.","Kesavananda Bharati: Preamble is part of the Constitution.","Not an independent source of power, but an interpretive guide."], upsc:"Link Preamble values to constitutional morality, welfare state, secularism, democracy and dignity."},
+  part1:{title:"Part I — Union and its Territory", subtitle:"Articles 1–4", articles:"Art. 1–4", tags:["Federalism","Prelims"], core:"India, that is Bharat, is a Union of States. Parliament has broad power to admit, establish or reorganise States.", points:["Art. 1: name and territory.","Art. 3: formation/alteration of States; President's recommendation required.","State legislature's view is sought but is not binding on Parliament."], upsc:"Frequently tested distinction: constitutional amendment under Art. 368 is not required for laws under Arts. 2–4."},
+  part2:{title:"Part II — Citizenship", subtitle:"Articles 5–11", articles:"Art. 5–11", tags:["Prelims","Polity"], core:"Part II dealt primarily with citizenship at the commencement of the Constitution; Parliament may regulate citizenship by law.", points:["Art. 11 enables Parliament to legislate on citizenship.","Citizenship Act, 1955 is central to present statutory rules.","Constitution provides single citizenship for India."], upsc:"Separate constitutional provisions at commencement from current statutory citizenship rules."},
+  part3:{title:"Part III — Fundamental Rights", subtitle:"Articles 12–35", articles:"Art. 12–35", tags:["Very High Yield","Prelims","GS-II"], core:"Justiciable rights restrain State action and protect liberty, equality, religious freedom, cultural/educational rights and constitutional remedies.", points:["Art. 14 equality; 19 freedoms; 21 life & personal liberty.","Art. 20 and 21 cannot be suspended even during an Emergency under Art. 359.","Art. 32: right to constitutional remedies; Supreme Court writ jurisdiction."], upsc:"Always connect Art. 14 + 19 + 21 (‘golden triangle’), reasonable restrictions, positive obligations and judicial review."},
+  part4:{title:"Part IV — Directive Principles", subtitle:"Articles 36–51", articles:"Art. 36–51", tags:["GS-II","Mains"], core:"Non-justiciable principles directing the State toward social and economic democracy and a welfare state.", points:["Art. 38 social order; 39 socio-economic principles; 39A free legal aid.","Art. 44 Uniform Civil Code; 48A environment; 50 separation of judiciary from executive.","FR–DPSP harmony is part of constitutional balance."], upsc:"Mains favorite: tension and harmony between individual rights and socio-economic transformation."},
+  part4a:{title:"Part IVA — Fundamental Duties", subtitle:"Article 51A", articles:"Art. 51A", tags:["Prelims","Ethics"], core:"Eleven Fundamental Duties guide civic responsibility; most are not directly enforceable unless supported by law.", points:["Added by 42nd Amendment (1976), originally 10 duties.","86th Amendment added parent/guardian duty concerning education of children 6–14.","Can inform interpretation of laws and reasonable restrictions."], upsc:"Useful in Ethics, environment, scientific temper and citizenship answers."},
+  part5:{title:"Part V — The Union", subtitle:"Articles 52–151", articles:"Art. 52–151", tags:["Very High Yield","GS-II"], core:"Union executive, Parliament, legislative procedure, Supreme Court and CAG.", points:["President: constitutional head; Council of Ministers aids and advises.","Parliament = President + Rajya Sabha + Lok Sabha.","Supreme Court: constitutional adjudication and judicial review; CAG audits public finances."], upsc:"Break this Part into Executive, Parliament, Judiciary and CAG for revision."},
+  part6:{title:"Part VI — The States", subtitle:"Articles 152–237", articles:"Art. 152–237", tags:["Federalism","GS-II"], core:"State executive, legislatures, High Courts and subordinate courts.", points:["Governor is constitutional head of State.","Arts. 163–164: Council of Ministers headed by CM.","High Courts have broader writ reach under Art. 226 than SC under Art. 32 in subject matter."], upsc:"Governor’s discretion, assent to Bills and Centre–State friction are recurring GS-II themes."},
+  part8:{title:"Part VIII — Union Territories", subtitle:"Articles 239–242", articles:"Art. 239 onward", tags:["Prelims","Federalism"], core:"Union Territories are administered under a constitutionally distinct framework; some have legislatures and Councils of Ministers.", points:["Art. 239: administration of UTs.","Art. 239AA: special provisions for NCT of Delhi.","Legislative powers vary by UT."], upsc:"Delhi federalism and LG–elected government disputes are important contemporary constitutional themes."},
+  part9:{title:"Part IX — Panchayats", subtitle:"Articles 243–243O", articles:"Art. 243–243O", tags:["73rd Amendment","Prelims"], core:"Constitutional framework for rural local self-government.", points:["73rd Amendment; constitutional status to Panchayats.","Three-tier structure subject to population exceptions.","Eleventh Schedule lists 29 subjects."], upsc:"Revise reservations, State Election Commission, State Finance Commission and Gram Sabha."},
+  part9a:{title:"Part IXA — Municipalities", subtitle:"Articles 243P–243ZG", articles:"Art. 243P–243ZG", tags:["74th Amendment","Prelims"], core:"Constitutional framework for urban local self-government.", points:["74th Amendment; Nagar Panchayat, Municipal Council, Municipal Corporation.","Twelfth Schedule lists 18 functions.","Ward Committees and metropolitan/district planning matter for urban governance."], upsc:"Strong overlap with GS-II governance and GS-I urbanisation."},
+  part9b:{title:"Part IXB — Co-operative Societies", subtitle:"Articles 243ZH–243ZT", articles:"Art. 243ZH–243ZT", tags:["97th Amendment","Advanced"], core:"Constitutional provisions relating to co-operative societies.", points:["Inserted by the 97th Amendment.","Supreme Court (2021) invalidated the amendment insofar as it governed State co-operatives without required State ratification; provisions continue in relation to multi-State co-operatives.","Art. 43B in DPSP and co-operative freedom under Art. 19(1)(c) were also introduced."], upsc:"Useful for federalism + co-operative movement questions."},
+  part10:{title:"Part X — Scheduled & Tribal Areas", subtitle:"Articles 244–244A", articles:"Art. 244–244A", tags:["Tribes","Prelims"], core:"Special administration of Scheduled and Tribal Areas through the Fifth and Sixth Schedules.", points:["Fifth Schedule: Scheduled Areas and Scheduled Tribes outside Sixth Schedule areas.","Sixth Schedule: autonomous arrangements in Assam, Meghalaya, Tripura and Mizoram.","Art. 244A permits an autonomous State framework within Assam."], upsc:"Know Fifth vs Sixth Schedule differences."},
+  part11:{title:"Part XI — Union–State Relations", subtitle:"Articles 245–263", articles:"Art. 245–263", tags:["Very High Yield","Federalism"], core:"Legislative and administrative relations between Union and States.", points:["Art. 246 + Seventh Schedule distribute legislative subjects.","Arts. 249, 250, 252, 253 allow Parliament to legislate in special circumstances.","Art. 263: Inter-State Council."], upsc:"Core federalism chapter: legislative competence, repugnancy, inter-governmental coordination."},
+  part12:{title:"Part XII — Finance, Property, Contracts & Suits", subtitle:"Articles 264–300A", articles:"Art. 264–300A", tags:["Economy","Federalism"], core:"Public finance, taxation, Finance Commission, borrowing, government property/contracts and right to property.", points:["Art. 265: no tax except by authority of law.","Art. 280: Finance Commission.","Art. 300A: property is a constitutional/legal right, not a Fundamental Right."], upsc:"Link Finance Commission and GST-era fiscal federalism to constitutional design."},
+  part13:{title:"Part XIII — Trade, Commerce & Intercourse", subtitle:"Articles 301–307", articles:"Art. 301–307", tags:["Economy","Prelims"], core:"Freedom of trade, commerce and intercourse across India, subject to constitutional restrictions.", points:["Art. 301 gives the general freedom.","Parliament and States may impose constitutionally permitted restrictions.","Important for economic unity and federal market questions."], upsc:"Less frequent, but useful for conceptual federalism/economic-union MCQs."},
+  part14:{title:"Part XIV — Services", subtitle:"Articles 308–323", articles:"Art. 308–323", tags:["UPSC","Services"], core:"Services under Union and States and Public Service Commissions.", points:["Art. 309 recruitment/service conditions.","Art. 310 doctrine of pleasure, subject to safeguards.","Art. 311 safeguards civil servants against dismissal/removal/reduction in rank."], upsc:"Directly relevant to civil-service neutrality, accountability and safeguards."},
+  part14a:{title:"Part XIVA — Tribunals", subtitle:"Articles 323A–323B", articles:"Art. 323A–323B", tags:["Judiciary","GS-II"], core:"Constitutional basis for administrative and other tribunals.", points:["Added by 42nd Amendment.","323A: administrative tribunals.","323B: tribunals for specified matters."], upsc:"Judicial independence, tribunal reform and High Court review are recurring issues."},
+  part15:{title:"Part XV — Elections", subtitle:"Articles 324–329", articles:"Art. 324–329", tags:["Very High Yield","Prelims"], core:"Constitutional architecture for elections, centred on the Election Commission of India.", points:["Art. 324: superintendence, direction and control of elections.","Art. 325: one general electoral roll; no exclusion on listed identity grounds.","Art. 326: adult suffrage."], upsc:"Connect ECI independence, MCC (statutory vs non-statutory aspects), disqualification and electoral reforms."},
+  part16:{title:"Part XVI — Special Provisions for Certain Classes", subtitle:"Articles 330–342A", articles:"Art. 330–342A", tags:["Social Justice","Prelims"], core:"Representation and constitutional identification/safeguards concerning SCs, STs and socially/educationally backward classes.", points:["Political reservation for SC/ST in legislatures.","Arts. 338, 338A, 338B: constitutional commissions.","Arts. 341, 342 and 342A concern specification of SC/ST/SEBC."], upsc:"Pair constitutional commissions with their Articles."},
+  part17:{title:"Part XVII — Official Language", subtitle:"Articles 343–351", articles:"Art. 343–351", tags:["Prelims","Language"], core:"Official-language framework of the Union, States and courts, with protections for linguistic diversity.", points:["Hindi in Devanagari script is official language of Union under Art. 343.","English continues for official purposes under parliamentary law.","Eighth Schedule currently contains 22 languages."], upsc:"Avoid confusing ‘official language’ with ‘national language’—the Constitution does not declare a national language."},
+  part18:{title:"Part XVIII — Emergency Provisions", subtitle:"Articles 352–360", articles:"Art. 352–360", tags:["Very High Yield","Prelims","GS-II"], core:"National Emergency, President’s Rule and Financial Emergency.", points:["Art. 352: war, external aggression or armed rebellion.","Art. 356: failure of constitutional machinery in a State.","Art. 360: Financial Emergency; never proclaimed so far."], upsc:"44th Amendment safeguards + S.R. Bommai limits on Art. 356 are essential."},
+  part19:{title:"Part XIX — Miscellaneous", subtitle:"Articles 361–367", articles:"Art. 361–367", tags:["Prelims"], core:"Miscellaneous provisions including protections for President/Governors and interpretation provisions.", points:["Art. 361: certain immunities of President and Governors while in office.","Art. 366 contains definitions.","Art. 367 concerns interpretation."], upsc:"Often appears as statement-based Prelims material."},
+  part20:{title:"Part XX — Amendment of Constitution", subtitle:"Article 368", articles:"Art. 368", tags:["Basic Structure","Very High Yield"], core:"Procedure and power to amend the Constitution, constrained by the judicially evolved Basic Structure doctrine.", points:["Three broad routes: simple majority outside Art. 368; special majority; special majority + ratification by at least half of States for federal provisions.","Kesavananda Bharati (1973): Basic Structure cannot be destroyed.","Judicial review of amendments remains possible."], upsc:"One of the highest-yield constitutional topics for both Prelims and Mains."},
+  part21:{title:"Part XXI — Temporary, Transitional & Special Provisions", subtitle:"Articles 369–392", articles:"Art. 369–392", tags:["Federalism","Special Provisions"], core:"Temporary/transitional provisions and special arrangements for various States.", points:["Includes Art. 371 series special provisions for several States.","Art. 370 text remains in Constitution but its operative legal position changed following 2019 measures and subsequent Supreme Court adjudication.","Useful for asymmetric federalism."], upsc:"Treat special provisions as examples of differentiated/asymmetric federalism."},
+  part22:{title:"Part XXII — Short Title, Commencement, Hindi Text & Repeals", subtitle:"Articles 393–395", articles:"Art. 393–395", tags:["Prelims"], core:"Closing provisions of the Constitution.", points:["Art. 393: short title.","Art. 394: commencement.","Art. 394A: authoritative Hindi text; Art. 395: repeals."], upsc:"Low frequency, useful for elimination-based MCQs."},
+  sch1:{title:"First Schedule",subtitle:"States and Union Territories",articles:"Arts. 1 & 4",tags:["Schedule","Prelims"],core:"Names and territorial descriptions of States and Union Territories.",points:["Closely linked with Arts. 1–4.","Changes may accompany State reorganisation."],upsc:"Map-based polity + reorganisation questions."},
+  sch5:{title:"Fifth Schedule",subtitle:"Scheduled Areas and Scheduled Tribes",articles:"Art. 244(1)",tags:["Tribes","Prelims"],core:"Administration and control of Scheduled Areas and Scheduled Tribes in specified areas.",points:["Governor has special responsibilities.","Tribes Advisory Council is important.","Different from Sixth Schedule autonomous councils."],upsc:"Frequently compared with Sixth Schedule."},
+  sch6:{title:"Sixth Schedule",subtitle:"Tribal Areas in four North-Eastern States",articles:"Arts. 244(2), 275(1)",tags:["Tribes","Federalism"],core:"Autonomous District/Regional Councils in tribal areas of Assam, Meghalaya, Tripura and Mizoram.",points:["Legislative/judicial/financial powers in specified fields.","Not applicable to every North-Eastern State."],upsc:"Memorise the four States."},
+  sch7:{title:"Seventh Schedule",subtitle:"Union, State and Concurrent Lists",articles:"Art. 246",tags:["Federalism","Very High Yield"],core:"Three legislative lists distribute subjects between Parliament and State legislatures.",points:["Union List, State List, Concurrent List.","Residuary legislative power lies with Parliament.","Repugnancy in Concurrent field is governed principally by Art. 254."],upsc:"Core to legislative federalism."},
+  sch8:{title:"Eighth Schedule",subtitle:"22 languages",articles:"Arts. 344 & 351",tags:["Language","Prelims"],core:"Recognised scheduled languages of the Constitution.",points:["Currently 22 languages.","English is not in the Eighth Schedule.","Being scheduled does not make a language the ‘national language’."],upsc:"Classic factual MCQ area."},
+  sch10:{title:"Tenth Schedule",subtitle:"Anti-defection",articles:"Arts. 102(2), 191(2)",tags:["Parliament","High Yield"],core:"Disqualification of legislators on ground of defection.",points:["Added by 52nd Amendment (1985).","Decision is made by Speaker/Chairman, subject to judicial review.","91st Amendment removed split exception and strengthened anti-defection framework."],upsc:"Mains debate: stability vs deliberative freedom."},
+  sch11:{title:"Eleventh Schedule",subtitle:"29 Panchayat subjects",articles:"Art. 243G",tags:["Local Government","Prelims"],core:"29 functional subjects that may be devolved to Panchayats.",points:["Added by 73rd Amendment.","Devolution depends substantially on State legislation."],upsc:"Remember 29 subjects."},
+  sch12:{title:"Twelfth Schedule",subtitle:"18 Municipal functions",articles:"Art. 243W",tags:["Urban Governance","Prelims"],core:"18 functional areas that may be entrusted to Municipalities.",points:["Added by 74th Amendment.","Includes urban planning, roads, water supply, sanitation and more."],upsc:"Remember 18 functions."}
+ }
+};
+
+const schedules = [
+ ["1","States & Union Territories","Arts. 1, 4","Territorial description of States and Union Territories."],
+ ["2","Constitutional Offices","Multiple","Emoluments/allowances and provisions concerning specified constitutional authorities."],
+ ["3","Oaths & Affirmations","Multiple","Forms of oaths or affirmations."],
+ ["4","Rajya Sabha Seats","Arts. 4, 80","Allocation of seats in the Council of States."],
+ ["5","Scheduled Areas & STs","Art. 244(1)","Administration and control of Scheduled Areas and Scheduled Tribes."],
+ ["6","Tribal Areas","Arts. 244(2), 275(1)","Autonomous arrangements in Assam, Meghalaya, Tripura and Mizoram."],
+ ["7","Legislative Lists","Art. 246","Union, State and Concurrent Lists."],
+ ["8","Languages","Arts. 344, 351","22 scheduled languages."],
+ ["9","Certain Acts & Regulations","Art. 31B","Historically used to shield listed laws; subject to Basic Structure review after I.R. Coelho."],
+ ["10","Anti-defection","Arts. 102(2), 191(2)","Disqualification on ground of defection."],
+ ["11","Panchayats","Art. 243G","29 subjects."],
+ ["12","Municipalities","Art. 243W","18 functions."]
+];
+
+const amendments = [
+ ["1951","1st Amendment","Added, among other changes, Art. 15(4), Arts. 31A–31B and Ninth Schedule; also altered speech-related restrictions."],
+ ["1956","7th Amendment","Major State reorganisation-era constitutional changes; reorganised constitutional classification of States/UTs."],
+ ["1971","24th Amendment","Affirmed Parliament’s constituent power to amend and made presidential assent to an Art. 368 amendment bill mandatory."],
+ ["1971","25th Amendment","Introduced Art. 31C in its original form and altered property-right provisions."],
+ ["1976","42nd Amendment","‘Mini-Constitution’: Preamble additions, Fundamental Duties, tribunals and wide institutional changes."],
+ ["1978","44th Amendment","Reversed several Emergency-era changes; replaced ‘internal disturbance’ with ‘armed rebellion’; strengthened liberty safeguards."],
+ ["1985","52nd Amendment","Inserted Tenth Schedule (anti-defection)."],
+ ["1989","61st Amendment","Reduced voting age from 21 to 18."],
+ ["1992","73rd Amendment","Constitutionalised Panchayats; Part IX + Eleventh Schedule."],
+ ["1992","74th Amendment","Constitutionalised Municipalities; Part IXA + Twelfth Schedule."],
+ ["2002","86th Amendment","Inserted Art. 21A (education 6–14), modified Art. 45 and added Art. 51A(k)."],
+ ["2003","91st Amendment","Strengthened anti-defection rules and capped size of Councils of Ministers at 15% (subject to minimum for States)."],
+ ["2011","97th Amendment","Co-operative societies: Art. 19(1)(c), Art. 43B and Part IXB; Part IXB later partly invalidated for State co-operatives by SC (2021)."],
+ ["2016","101st Amendment","Introduced GST constitutional framework, including GST Council."],
+ ["2018","102nd Amendment","Constitutional status to NCBC; inserted Art. 338B and 342A framework."],
+ ["2019","103rd Amendment","Enabled up to 10% reservation for Economically Weaker Sections under Arts. 15(6) and 16(6)."],
+ ["2020","104th Amendment","Extended SC/ST legislative reservation; ended Anglo-Indian nominated-seat provision at the relevant level."],
+ ["2021","105th Amendment","Restored/clarified States’ power to identify SEBCs for their own purposes."],
+ ["2023","106th Amendment","Provides one-third reservation for women in Lok Sabha, State Assemblies and Delhi Assembly; operation is linked to a future delimitation after the first census taken after commencement."]
+];
+
+const cases = [
+ ["Kesavananda Bharati v State of Kerala","1973","Basic Structure","Parliament’s amendment power is broad but cannot destroy the Constitution’s Basic Structure."],
+ ["Maneka Gandhi v Union of India","1978","Article 21","Procedure affecting life/liberty must be fair, just and reasonable; Arts. 14, 19 and 21 became deeply interconnected."],
+ ["Minerva Mills v Union of India","1980","FR–DPSP Balance","Limited amending power and harmony between Fundamental Rights and DPSPs are constitutionally fundamental."],
+ ["S.R. Bommai v Union of India","1994","Article 356 / Federalism","President’s Rule is judicially reviewable; floor test and federal/secular principles gained central importance."],
+ ["I.R. Coelho v State of Tamil Nadu","2007","Ninth Schedule","Post-24 April 1973 Ninth Schedule laws can be tested against Basic Structure through their impact on core rights."],
+ ["Supreme Court Advocates-on-Record Assn. v Union of India","2015","NJAC","99th Amendment/NJAC struck down; judicial independence treated as part of Basic Structure."],
+ ["K.S. Puttaswamy v Union of India","2017","Privacy","Privacy recognised as a Fundamental Right under the liberty/dignity framework."],
+ ["Janhit Abhiyan v Union of India","2022","EWS Reservation","Supreme Court upheld the 103rd Amendment enabling EWS reservation."],
+ ["Government of NCT of Delhi v Union of India","2018 / 2023","Delhi Governance","Clarified representative government, aid-and-advice and control questions in the NCT’s special constitutional framework."]
+];
+
+const quiz = [
+ {q:"Which Article is called the constitutional remedy provision for enforcement of Fundamental Rights before the Supreme Court?", opts:["Article 19","Article 21","Article 32","Article 226"], a:2},
+ {q:"The Tenth Schedule primarily deals with:", opts:["Tribal areas","Anti-defection","Languages","Municipalities"], a:1},
+ {q:"Which Schedule contains the Union, State and Concurrent Lists?", opts:["Fifth","Sixth","Seventh","Ninth"], a:2},
+ {q:"Fundamental Duties are placed in:", opts:["Part III","Part IV","Part IVA","Part V"], a:2},
+ {q:"Article 280 concerns the:", opts:["Election Commission","Finance Commission","CAG","UPSC"], a:1},
+ {q:"Which amendment lowered the voting age to 18?", opts:["44th","52nd","61st","73rd"], a:2},
+ {q:"The Basic Structure doctrine is classically associated with:", opts:["A.K. Gopalan","Kesavananda Bharati","S.R. Bommai","Puttaswamy"], a:1},
+ {q:"The Eleventh Schedule is associated with:", opts:["Municipalities","Panchayats","Anti-defection","Languages"], a:1},
+ {q:"Which Article provides the constitutional amendment procedure?", opts:["356","360","368","324"], a:2},
+ {q:"The Constitution of India declares which language as the ‘national language’?", opts:["Hindi","Hindi and English","Sanskrit","None"], a:3}
+];
+
+let savedRevision=[];try{const v=JSON.parse(localStorage.getItem("go-daily:constitution:revised:v1")||"[]");if(Array.isArray(v))savedRevision=v;}catch{}
+let activeCategory=null, selectedId=null, revised=new Set(savedRevision);
+const world=document.getElementById("world"), svg=document.getElementById("mapSvg");
+let transform={x:0,y:0,k:1}, drag=null;
+
+function esc(s){return String(s).replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#039;"}[m]));}
+function line(x1,y1,x2,y2,cls="edge"){const l=document.createElementNS("http://www.w3.org/2000/svg","line");Object.entries({x1,y1,x2,y2,class:cls}).forEach(([k,v])=>l.setAttribute(k,v));world.appendChild(l);}
+function node(id,x,y,r,label,sub,cls="",stroke=null){
+ const g=document.createElementNS("http://www.w3.org/2000/svg","g"); g.setAttribute("class",`node ${cls} ${revised.has(id)?"done":""}`); g.dataset.id=id; g.style.cursor="pointer";
+ const c=document.createElementNS("http://www.w3.org/2000/svg","circle");c.setAttribute("cx",x);c.setAttribute("cy",y);c.setAttribute("r",r); if(stroke)c.setAttribute("stroke",stroke);g.appendChild(c);
+ const t=document.createElementNS("http://www.w3.org/2000/svg","text");t.setAttribute("x",x);t.setAttribute("y",y-4);t.setAttribute("text-anchor","middle");t.textContent=label;g.appendChild(t);
+ if(sub){const st=document.createElementNS("http://www.w3.org/2000/svg","text");st.setAttribute("x",x);st.setAttribute("y",y+16);st.setAttribute("text-anchor","middle");st.setAttribute("class","subtxt");st.textContent=sub;g.appendChild(st);}
+ g.addEventListener("click",e=>{e.stopPropagation();handleNode(id);});world.appendChild(g); return g;
+}
+function renderMap(){
+ world.innerHTML="";
+ const cx=700,cy=470;
+ DATA.categories.forEach(c=>line(cx,cy,c.x,c.y));
+ node("root",cx,cy,96,"CONSTITUTION","India · UPSC","center");
+ DATA.categories.forEach(c=>node(c.id,c.x,c.y,72,c.label,c.sub,"category",c.color));
+ if(activeCategory){
+   const c=DATA.categories.find(x=>x.id===activeCategory); const kids=c.children;
+   kids.forEach((id,i)=>{
+     const angle=(Math.PI*2*i/kids.length)-Math.PI/2;
+     const rr=145 + (i%2)*22;
+     let x=c.x+Math.cos(angle)*rr, y=c.y+Math.sin(angle)*rr;
+     x=Math.max(85,Math.min(1315,x)); y=Math.max(70,Math.min(830,y));
+     line(c.x,c.y,x,y,"edge sub");
+     const t=DATA.topics[id]; const lbl=t? t.title.replace(/^Part [^—]+ — /,"").replace(/ Schedule$/,"") : id;
+     const short=lbl.length>22?lbl.slice(0,20)+"…":lbl;
+     node(id,x,y,50,short,t?.articles||"","topic");
+   });
+ }
+ applyTransform();
+ highlightSearch(document.getElementById("search").value);
+}
+function handleNode(id){
+ if(id==="root"){activeCategory=null; selectedId=null; showDetail(null); renderMap(); return;}
+ const cat=DATA.categories.find(c=>c.id===id);
+ if(cat){activeCategory = activeCategory===id?null:id; selectedId=id; showCategory(cat); renderMap(); return;}
+ selectedId=id; showDetail(DATA.topics[id],id); renderMap(); openPanelMobile();
+}
+function showCategory(c){
+ document.getElementById("detailTitle").textContent=c.label;
+ document.getElementById("detailSubtitle").textContent=c.sub;
+ document.getElementById("detailChips").innerHTML='<span class="chip">Branch</span><span class="chip">'+c.children.length+' topics</span>';
+ document.getElementById("detailCore").textContent="Expand this branch to see its connected constitutional Parts and high-yield UPSC topics.";
+ document.getElementById("detailPoints").innerHTML=c.children.map(id=>`<li>${esc(DATA.topics[id]?.title||id)}</li>`).join("");
+ document.getElementById("detailUpsc").textContent="Use this branch as a mental folder. Recall the Part → key Articles → doctrine/case → likely Prelims trap.";
+ updateRevise(c.id);
+}
+function showDetail(t,id){
+ if(!t){
+   document.getElementById("detailTitle").textContent="Constitution of India";
+   document.getElementById("detailSubtitle").textContent="Click a branch on the map to start.";
+   document.getElementById("detailChips").innerHTML='<span class="chip">UPSC</span><span class="chip">Interactive</span>';
+   document.getElementById("detailCore").textContent="A visual map connecting constitutional Parts, Articles, institutions, schedules, amendments and landmark doctrines.";
+   document.getElementById("detailPoints").innerHTML="<li>Preamble → constitutional philosophy</li><li>Parts III & IV → rights and governance goals</li><li>Article 368 → amendment power, limited by Basic Structure</li>";
+   document.getElementById("detailUpsc").textContent="Use the map for Prelims recall; use cases + constitutional tensions for GS-II Mains.";
+   return;
+ }
+ document.getElementById("detailTitle").textContent=t.title;
+ document.getElementById("detailSubtitle").textContent=t.subtitle||"";
+ document.getElementById("detailChips").innerHTML=(t.tags||[]).map(x=>`<span class="chip">${esc(x)}</span>`).join("") + (t.articles?`<span class="chip">${esc(t.articles)}</span>`:"");
+ document.getElementById("detailCore").textContent=t.core;
+ document.getElementById("detailPoints").innerHTML=(t.points||[]).map(x=>`<li>${esc(x)}</li>`).join("");
+ document.getElementById("detailUpsc").textContent=t.upsc||"";
+ updateRevise(id);
+}
+function updateRevise(id){
+ selectedId=id; const b=document.getElementById("reviseBtn"); const d=revised.has(id);
+ b.textContent=d?"✓ Revised":"✓ Mark as revised"; b.classList.toggle("done",d);
+}
+document.getElementById("reviseBtn").onclick=()=>{
+ if(!selectedId)return; revised.has(selectedId)?revised.delete(selectedId):revised.add(selectedId);
+ try{localStorage.setItem("go-daily:constitution:revised:v1",JSON.stringify([...revised]));}catch{} updateRevise(selectedId); renderMap();
+};
+function applyTransform(){world.setAttribute("transform",`translate(${transform.x} ${transform.y}) scale(${transform.k})`)}
+svg.addEventListener("wheel",e=>{e.preventDefault(); const f=e.deltaY<0?1.08:.92;transform.k=Math.max(.55,Math.min(2.4,transform.k*f));applyTransform()},{passive:false});
+svg.addEventListener("pointerdown",e=>{drag={x:e.clientX-transform.x,y:e.clientY-transform.y};svg.setPointerCapture(e.pointerId)});
+svg.addEventListener("pointermove",e=>{if(drag){transform.x=e.clientX-drag.x;transform.y=e.clientY-drag.y;applyTransform()}});
+svg.addEventListener("pointerup",()=>drag=null);
+svg.addEventListener("pointercancel",()=>drag=null);
+
+document.getElementById("resetBtn").onclick=()=>{transform={x:0,y:0,k:1};activeCategory=null;selectedId=null;document.getElementById("search").value="";showDetail(null);renderMap();};
+function highlightSearch(q){
+ q=(q||"").trim().toLowerCase(); document.querySelectorAll(".node").forEach(n=>n.classList.remove("search-hit")); if(!q)return;
+ let first=null;
+ for(const [id,t] of Object.entries(DATA.topics)){
+   const blob=[t.title,t.subtitle,t.articles,t.core,...(t.tags||[]),...(t.points||[])].join(" ").toLowerCase();
+   if(blob.includes(q)){
+      if(!first)first=id;
+      const parent=DATA.categories.find(c=>c.children.includes(id));
+      if(parent && !activeCategory){activeCategory=parent.id;renderMap();return;}
+      const n=document.querySelector(`.node[data-id="${id}"]`); if(n)n.classList.add("search-hit");
+   }
+ }
+}
+document.getElementById("search").addEventListener("input",e=>highlightSearch(e.target.value));
+document.getElementById("search").addEventListener("keydown",e=>{if(e.key==="Enter"){const q=e.target.value.toLowerCase();const hit=Object.entries(DATA.topics).find(([id,t])=>[t.title,t.subtitle,t.articles,t.core,...t.points].join(" ").toLowerCase().includes(q));if(hit){const p=DATA.categories.find(c=>c.children.includes(hit[0]));activeCategory=p?.id||activeCategory;renderMap();showDetail(hit[1],hit[0]);openPanelMobile();}}});
+
+function switchView(name){
+ document.querySelectorAll(".tab").forEach(t=>t.classList.toggle("active",t.dataset.view===name));
+ document.getElementById("mapView").style.display=name==="map"?"block":"none";
+ ["schedules","amendments","cases","quiz"].forEach(v=>document.getElementById(v+"View").classList.toggle("active",name===v));
+}
+document.querySelectorAll(".tab").forEach(t=>t.onclick=()=>switchView(t.dataset.view));
+
+const sg=document.getElementById("scheduleGrid");
+schedules.forEach(([n,title,arts,desc])=>{
+ const d=document.createElement("div");d.className="info";d.innerHTML=`<span class="badge">Schedule ${n}</span><h3>${esc(title)}</h3><div class="muted">${esc(arts)}</div><p>${esc(desc)}</p>`;
+ d.onclick=()=>{const id="sch"+n;if(DATA.topics[id])showDetail(DATA.topics[id],id);else {showDetail({title:`${n}${["st","nd","rd"][n-1]||"th"} Schedule — ${title}`,subtitle:arts,tags:["Schedule","Prelims"],core:desc,points:["Revise its subject matter and linked Articles."],upsc:"Schedule-based statement questions are common in Prelims."},"schedule"+n)}openPanelMobile()};sg.appendChild(d);
+});
+
+const at=document.getElementById("amendTimeline");
+amendments.forEach(([year,name,desc])=>{const d=document.createElement("div");d.className="amend";d.innerHTML=`<div><div class="year">${year}</div><div class="badge">${esc(name)}</div></div><div>${esc(desc)}</div>`;at.appendChild(d);});
+const cg=document.getElementById("caseGrid");
+cases.forEach(([name,year,doctrine,desc])=>{const d=document.createElement("div");d.className="info";d.innerHTML=`<span class="badge">${esc(year)} · ${esc(doctrine)}</span><h3>${esc(name)}</h3><p>${esc(desc)}</p>`;cg.appendChild(d);});
+
+let qi=0,score=0,answered=false;
+function renderQuiz(){
+ const q=quiz[qi];answered=false;document.getElementById("qnum").textContent=`Question ${qi+1} of ${quiz.length}`;document.getElementById("question").textContent=q.q;document.getElementById("score").textContent=`Score: ${score}/${quiz.length}`;
+ const o=document.getElementById("options");o.innerHTML="";q.opts.forEach((x,i)=>{const b=document.createElement("button");b.className="option";b.textContent=x;b.onclick=()=>{if(answered)return;answered=true;if(i===q.a){b.classList.add("correct");score++}else{b.classList.add("wrong");o.children[q.a].classList.add("correct")}document.getElementById("score").textContent=`Score: ${score}/${quiz.length}`};o.appendChild(b)});
+}
+document.getElementById("nextQ").onclick=()=>{qi=(qi+1)%quiz.length;if(qi===0)score=0;renderQuiz()};renderQuiz();
+
+function openPanelMobile(){if(innerWidth<=900)document.getElementById("panel").classList.add("open")}
+document.getElementById("panelBtn").onclick=()=>document.getElementById("panel").classList.toggle("open");
+document.addEventListener("keydown",e=>{if(e.key==="Escape")document.getElementById("panel").classList.remove("open")});
+renderMap();
+</script>
+</body>
+</html>
